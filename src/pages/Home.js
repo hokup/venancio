@@ -1,5 +1,7 @@
 import React, { useEffect } from 'react'
 import $ from 'jquery';
+import Popup from 'reactjs-popup';
+import { Helmet } from "react-helmet";
 
 import '../assets/css/App.css';
 import '../assets/css/flexslider.css';
@@ -7,7 +9,6 @@ import '../assets/css/bootstrap.css'
 import '../assets/css/fonts.css';
 import '../assets/css/magnific-popup.css';
 import '../assets/css/main.css';
-import Popup from 'reactjs-popup';
 
 // Images svg
 import logoLight from '../assets/svg/logo-light.svg'
@@ -96,6 +97,11 @@ function App() {
 
     return (
         <>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Venancio Restaurante & Bar</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
             <div className="loader">
                 <div className="loader-inner">
                     <svg width="120" height="220" viewbox="0 0 100 100" className="loading-spinner" version="1.1"

@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react'
 import $ from 'jquery';
 import { Parallax } from 'react-scroll-parallax';
-
+import { Helmet } from "react-helmet";
 
 // Images svg
 import logoLight from '../assets/svg/logo-light.svg'
@@ -74,6 +74,11 @@ export default function Cardapio() {
 
    return (
       <>
+      <Helmet>
+                <meta charSet="utf-8" />
+                <title>Cardápio | Venancio Restaurante & Bar</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
          <div class="loader">
             <div class="loader-inner">
                <svg width="120" height="220" viewbox="0 0 100 100" class="loading-spinner" version="1.1"
