@@ -19,7 +19,7 @@ export default function validadeInfo(values) {
     }
     //Message
     if (!values.message) {
-        errors.message = '*como é seu projeto?';
+        errors.message = '*o que você gostaria de saber?';
     }
 
     //Solução

@@ -5,6 +5,7 @@ const useForm = validate => {
         name: '',
         mail: '',
         phone: '',
+        subject: '',
         message: ''
     });
 
@@ -38,14 +39,14 @@ const useForm = validate => {
             .then(function (res) {
 
                 if (res.status == 202) {
-                    setTimeout("location.href = 'http://localhost:3000/';", 100);
+                    setTimeout("location.href = 'https://venancio.vercel.app/';", 100);
                 } else {
                     
                 }
 
             }).catch(function (err) {
                 console.log(err);
-                setTimeout("location.href = 'http://localhost:3000/falha';", 100);
+                setTimeout("location.href = 'https://venancio.vercel.app/falha';", 100);
             });
     };
 
