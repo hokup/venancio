@@ -163,10 +163,6 @@ module.exports = (req, res) => {
                 <li><strong> E-mail: ![mail]</strong>  </li>
                 <li><strong> Assunto: ![subject]</strong>  </li>
                 <li><strong> Telefone: ![phone]</strong>  </li>
-                <li><strong> Soluções:</strong> <br/>
-                    ![app] ![website] ![branding] ![uiux]
-                </li>
-                <li><strong> Orçamento: ![orcamento]</strong></li>
                 <li><strong> Mensagem: ![message]</strong>  </li>
             </ul>
         `
