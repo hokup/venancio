@@ -18,7 +18,7 @@ const Contato = () => {
                     {errors.name && <p>{errors.name}</p>}
                 </div>
                 <label className="form-label"> NOME <span className="text-danger-alt">*</span></label>
-                <div className=" input-group form">
+                <div className="input-group form">
                     <input id="name"
                         className="form-control "
                         name="name"
