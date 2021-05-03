@@ -9,7 +9,7 @@ export default function validadeInfo(values) {
     //Email
     if (!values.mail) {
         errors.mail = '*qual o seu email?';
-    } else if (!/\S+@\S+\.\S+/.test(values.email)) {
+    } else if (!/\S+@\S+\.\S+/.test(values.mail)) {
         errors.mail = '*email inválido.';
     }
 
