@@ -7,8 +7,8 @@ export default function validadeInfo(values) {
     }
 
     //Email
-    if (!values.email) {
-        errors.email = '*qual o seu email?';
+    if (!values.mail) {
+        errors.mail = '*qual o seu email?';
     } else if (!/\S+@\S+\.\S+/.test(values.email)) {
         errors.email = '*email inválido.';
     }
@@ -24,7 +24,7 @@ export default function validadeInfo(values) {
 
     //Solução
     if (!values.subject) {
-        errors.solucao = '*qual é o seu assunto?';
+        errors.subject = '*qual é o seu assunto?';
     }
 
     return errors;
