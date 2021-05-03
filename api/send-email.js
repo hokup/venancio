@@ -10,7 +10,7 @@ class LepyValidator {
             email: new EmailValidator(),
             matter: new SimpleValidator(2),
             phone: new PhoneValidator(),
-            message: new SimpleValidator()
+            message: new SimpleValidator(2)
         }
     }
 
@@ -154,7 +154,7 @@ class EmailContent {
 module.exports = (req, res) => {
     let validator = new LepyValidator()
     let msg = new EmailContent({
-        to: 'bernardojbraga@gmail.com',
+        to: 'bernardo@hokup.com.br',
         from: 'mail@hokup.com.br',
         subject: 'hokup',
         text: 'hokup',
@@ -179,6 +179,7 @@ module.exports = (req, res) => {
         if(!vd.valid) {
             res.status(422)
             res.send(vd)
+            console.log(vd);
         } else {
             msg.bulkSet(req.body)
             console.log(msg.get())
