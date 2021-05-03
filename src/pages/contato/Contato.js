@@ -63,16 +63,16 @@ const Contato = () => {
             </div>
             <div className="col-sm-6 mb-5">
                 <div className="error-container">
-                    {errors.subject && <p>{errors.subject}</p>}
+                    {errors.matter && <p>{errors.matter}</p>}
                 </div>
                 <label className="form-label"> ASSUNTO <span className="text-danger-alt">*</span></label>
                 <div className=" input-group form">
-                    <input id="subject"
+                    <input id="matter"
                         className="form-control "
-                        name="subject"
+                        name="matter"
                         type="text"
                         placeholder="ASSUNTO"
-                        value={values.subject}
+                        value={values.matter}
                         onChange={handleChange}
                         required />
                 </div>
@@ -105,57 +105,3 @@ const Contato = () => {
 };
 
 export default Contato;
-
-{/* <form method="post" action="./api/mail.php">
-    <div className="row">
-        <div className="col-sm-6 mb-5">
-            <label className="form-label">
-                NOME
-                                            <span className="text-danger-alt">*</span>
-            </label>
-            <div className=" input-group form">
-                <input className="form-control " type="text" name="name" placeholder="Seu nome" required />
-            </div>
-        </div>
-        <div className="col-sm-6 mb-5">
-            <label className="form-label">
-                EMAIL
-                              <span className="text-danger-alt">*</span>
-            </label>
-            <div className=" input-group form">
-                <input className="form-control " type="email" name="email" placeholder="Seu email" required />
-            </div>
-        </div>
-        <div className="col-sm-6 mb-5">
-            <label className="form-label">
-                TELEFONE
-                           </label>
-            <div className="input-group form">
-                <input className="form-control " type="text" name="phone" placeholder="Seu telefone" />
-            </div>
-        </div>
-        <div className="col-sm-6 mb-5">
-            <label className="form-label">
-                ASSUNTO
-                           </label>
-            <div className=" input-group form">
-                <input className="form-control " type="text" name="subject" placeholder="Assunto" />
-            </div>
-        </div>
-        <div className="col-12">
-            <label className="form-label">
-                MENSAGEM
-                              <span className="text-danger-alt">*</span>
-            </label>
-            <div className=" input-group form mb-5">
-                <textarea className="form-control " rows="6" name="text" placeholder="Sua mensagem"
-                    required></textarea>
-            </div>
-        </div>
-        <div className="col">
-            <div className="text-center">
-                <button type="submit" className="btn btn-primary btn-wide">ENVIAR MENSAGEM</button>
-            </div>
-        </div>
-    </div>
-</form> */}

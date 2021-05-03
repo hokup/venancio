@@ -13,6 +13,11 @@ export default function validadeInfo(values) {
         errors.mail = '*email inválido.';
     }
 
+     //Solução
+     if (!values.matter) {
+        errors.matter = '*qual é o seu assunto?';
+    }
+
     //Phone
     if (!values.phone) {
         errors.phone = '*qual o seu telefone?';
@@ -20,11 +25,6 @@ export default function validadeInfo(values) {
     //Message
     if (!values.message) {
         errors.message = '*o que você gostaria de saber?';
-    }
-
-    //Solução
-    if (!values.subject) {
-        errors.subject = '*qual é o seu assunto?';
     }
 
     return errors;
