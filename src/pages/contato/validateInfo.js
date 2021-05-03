@@ -23,13 +23,8 @@ export default function validadeInfo(values) {
     }
 
     //Solução
-    if (!values.app & !values.website & !values.branding & !values.uiux) {
-        errors.solucao = '*qual serviço você precisa?';
-    }
-
-    //Orçamento
-    if (!values.orcamento) {
-        errors.orcamento = '*qual o seu orçamento?';
+    if (!values.subject) {
+        errors.solucao = '*qual é o seu assunto?';
     }
 
     return errors;
