@@ -7,7 +7,7 @@ class LepyValidator {
     constructor() {
         this.rules = {
             name: new SimpleValidator(2),
-            email: new EmailValidator(),
+            mail: new EmailValidator(),
             matter: new SimpleValidator(2),
             phone: new PhoneValidator(),
             message: new SimpleValidator(2)
