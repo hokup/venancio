@@ -4,6 +4,10 @@
   height: 100vh;
 }
 
+.popup-image{
+  cursor: pointer;
+}
+
 .popup-overlay{
   background: rgba(0, 0, 0, 0.5);
 }

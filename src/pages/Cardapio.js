@@ -67,7 +67,7 @@ export default function Cardapio() {
    function ParallaxImage(props) {
       return (
          <Parallax y={[-10, -40]} tagOuter="figure" className="jarallax-img">
-            <img className="parallax-img" src={`${props.imgSrc}`} />
+            <img loading="lazy" className="parallax-img" src={`${props.imgSrc}`} />
          </Parallax>
       )
    }
@@ -1973,7 +1973,7 @@ export default function Cardapio() {
                   <div className="row justify-content-lg-start mb-5">
                      <div className="col-lg-4 col-sm-6 mb-5 mb-lg-0">
                         <a className="d-inline-block mb-3 footer-logo" href="index.html">
-                           <img src="assets/svg/venancio-logo.svg" style={{ width: '125px !important' }} alt="" />
+                           <img src={venancioLogo} style={{ width: '125px' }} alt="" />
                         </a>
                         <p className="font-size-14 ">© 2021 Venancio. Todos direitos <br /> reservados.</p>
                         <div>
@@ -2000,7 +2000,7 @@ export default function Cardapio() {
                         </address>
                      </div>
                      <div className=" col-lg-4 col-sm-6 mb-4">
-                        <h3 className="h6 text-white mb-3  font-size-15">Hours of opening</h3>
+                        <h3 className="h6 text-white mb-3  font-size-15">Horário de atendimento</h3>
                         <div className="opening-hours-container font-size-14 ">
                            <span className="opening-hours-holder-inner">
                               <span className="opening-hours-day-holder">
