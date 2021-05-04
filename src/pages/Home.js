@@ -126,12 +126,13 @@ function App() {
                                     </button>
                                     <div class="nav-menu collapse navbar-collapse navbar-collapse justify-content-end py-0 ">
                                         <ul class=" navbar-nav  header-navbar-nav">
-                                            <li><a class=" nav-link scroll" href="#wrapper">HOME</a></li>
-                                            <li><a class=" nav-link scroll" href="#about">SOBRE NÓS</a></li>
-                                            <li><a class=" nav-link scroll" href="#menu">SUGESTÃO</a></li>
-                                            <li><a class=" nav-link scroll" href="#contact">CONTATO</a></li>
-                                            <li class="ml-lg-auto"><a class="nav-link pr-0 pb-sm-4 pb-sm-0 nav-divider d-flex cardapio"
-                                                style={{ borderRight: 'none' }} href="/cardapio">CARDÁPIO</a></li>
+                                            <li data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link scroll" href="#wrapper" >HOME</a></li>
+                                            <li data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link scroll" href="#about"   >SOBRE NÓS</a></li>
+                                            <li data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link scroll" href="#menu"    >SUGESTÃO</a></li>
+                                            <li data-toggle="collapse" data-target=".navbar-collapse.show"><a class="nav-link scroll" href="#contact" >CONTATO</a></li>
+                                            <li data-toggle="collapse" data-target=".navbar-collapse.show" class="ml-lg-auto">
+                                                <a class="nav-link pr-0 pb-sm-4 pb-sm-0 nav-divider d-flex cardapio" style={{ borderRight: 'none' }} href="/cardapio">CARDÁPIO</a>
+                                            </li>
                                         </ul>
                                     </div>
                                 </nav>
@@ -147,7 +148,7 @@ function App() {
                         <div className="container hero-content">
                             <div className="row justify-content-center text-center">
                                 <div className="col-12 col-md-10 col-lg-10">
-                                    <img className="venancio-logo" src={venancioLogo} alt="" />
+                                    <img className="venancio-logo" src={venancioLogo} alt="" style={{ maxWidth: '450px', margin: '0px 25px 0px 25px' }} />
                                     <div className="row justify-content-center text-center ">
                                         <div className="col-md-auto">
                                             <div className=" pt-5 mt-5">
@@ -184,32 +185,60 @@ function App() {
                                 <div className="position-relative">
                                     <div className="row card-gutters">
                                         <div className="col-sm-6 offset-sm-1 mb-2">
-                                            <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={off1} alt="" />} modal nested>
-                                                <div className="">
-                                                    <img className="card-img" src={off1} alt="" />
-                                                </div>
-                                            </Popup>
+                                            <a className="hover-effect popup-image">
+                                                <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={off1} alt="" />} modal nested>
+                                                    <div className="">
+                                                        <img className="card-img" src={off1} alt="" />
+                                                    </div>
+                                                </Popup>
+                                                <span class="hover-effect-container">
+                                                    <span class="hover-effect-icon">
+                                                        <span class="fa fa-plus hover-effect-icon-inner"></span>
+                                                    </span>
+                                                </span>
+                                            </a>
                                         </div>
                                         <div className="col-sm-5 align-self-end mb-2">
-                                            <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={off3} alt="" />} modal nested>
-                                                <div className="">
-                                                    <img className="card-img" src={off3} alt="" />
-                                                </div>
-                                            </Popup>
+                                        <a className="hover-effect popup-image">
+                                                <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={off3} alt="" />} modal nested>
+                                                    <div className="">
+                                                        <img className="card-img" src={off3} alt="" />
+                                                    </div>
+                                                </Popup>
+                                                <span class="hover-effect-container">
+                                                    <span class="hover-effect-icon">
+                                                        <span class="fa fa-plus hover-effect-icon-inner"></span>
+                                                    </span>
+                                                </span>
+                                            </a>
                                         </div>
                                         <div className="col-sm-5 mb-2">
-                                            <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={off4} alt="" />} modal nested>
-                                                <div className="">
-                                                    <img className="card-img" src={off4} alt="" />
-                                                </div>
-                                            </Popup>
+                                        <a className="hover-effect popup-image">
+                                                <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={off4} alt="" />} modal nested>
+                                                    <div className="">
+                                                        <img className="card-img" src={off4} alt="" />
+                                                    </div>
+                                                </Popup>
+                                                <span class="hover-effect-container">
+                                                    <span class="hover-effect-icon">
+                                                        <span class="fa fa-plus hover-effect-icon-inner"></span>
+                                                    </span>
+                                                </span>
+                                            </a>
                                         </div>
                                         <div className="col-sm-6 mb-2">
-                                            <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={off2} alt="" />} modal nested>
-                                                <div className="">
-                                                    <img className="card-img" src={off2} alt="" />
-                                                </div>
-                                            </Popup>
+                                        <a className="hover-effect popup-image">
+                                                <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={off2} alt="" />} modal nested>
+                                                    <div className="">
+                                                        <img className="card-img" src={off2} alt="" />
+                                                    </div>
+                                                </Popup>
+                                                <span class="hover-effect-container">
+                                                    <span class="hover-effect-icon">
+                                                        <span class="fa fa-plus hover-effect-icon-inner"></span>
+                                                    </span>
+                                                </span>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
@@ -319,74 +348,116 @@ function App() {
                         <div className="row card-gutters">
                             <div className="col-sm-6 col-lg-3 mb-2  ">
                                 <div className="grid-item card border-0">
-                                    <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={gal1} alt="" />} modal nested>
-                                        <div className="">
-                                            <img className="card-img" src={gal1} alt="" />
-                                        </div>
-                                    </Popup>
+                                    <a className="hover-effect mb-0 popup-image">
+                                        <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={gal1} alt="" />} modal nested>
+                                            <img className="" src={gal1} alt="" />
+                                        </Popup>
+                                        <span class="hover-effect-container">
+                                            <span class="hover-effect-icon">
+                                                <span class="fa fa-plus hover-effect-icon-inner"></span>
+                                            </span>
+                                        </span>
+                                    </a>
+                                </div>
+
+
+                            </div>
+                            <div className="col-sm-6 col-lg-3 mb-2  ">
+                                <div className="grid-item  card border-0">
+                                    <a className="hover-effect mb-0 popup-image">
+                                        <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={gal6} alt="" />} modal nested>
+                                            <img className="" src={gal6} alt="" />
+                                        </Popup>
+                                        <span class="hover-effect-container">
+                                            <span class="hover-effect-icon">
+                                                <span class="fa fa-plus hover-effect-icon-inner"></span>
+                                            </span>
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
                             <div className="col-sm-6 col-lg-3 mb-2  ">
                                 <div className="grid-item  card border-0">
-                                    <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={gal6} alt="" />} modal nested>
-                                        <div className="">
-                                            <img className="card-img" src={gal6} alt="" />
-                                        </div>
-                                    </Popup>
+                                    <a className="hover-effect mb-0 popup-image">
+                                        <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={gal3} alt="" />} modal nested>
+                                            <img className="" src={gal3} alt="" />
+                                        </Popup>
+                                        <span class="hover-effect-container">
+                                            <span class="hover-effect-icon">
+                                                <span class="fa fa-plus hover-effect-icon-inner"></span>
+                                            </span>
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
                             <div className="col-sm-6 col-lg-3 mb-2  ">
                                 <div className="grid-item  card border-0">
-                                    <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={gal3} alt="" />} modal nested>
-                                        <div className="">
-                                            <img className="card-img" src={gal3} alt="" />
-                                        </div>
-                                    </Popup>
-                                </div>
-                            </div>
-                            <div className="col-sm-6 col-lg-3 mb-2  ">
-                                <div className="grid-item  card border-0">
-                                    <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={gal4} alt="" />} modal nested>
-                                        <div className="">
-                                            <img className="card-img" src={gal4} alt="" />
-                                        </div>
-                                    </Popup>
+                                    <a className="hover-effect mb-0 popup-image">
+                                        <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={gal4} alt="" />} modal nested>
+                                            <img className="" src={gal4} alt="" />
+                                        </Popup>
+                                        <span class="hover-effect-container">
+                                            <span class="hover-effect-icon">
+                                                <span class="fa fa-plus hover-effect-icon-inner"></span>
+                                            </span>
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
                             <div className="col-sm-6 col-lg-3 mb-2 mb-lg-0  ">
                                 <div className="grid-item  card border-0">
-                                    <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={gal5} alt="" />} modal nested>
-                                        <div className="">
-                                            <img className="card-img" src={gal5} alt="" />
-                                        </div>
-                                    </Popup>
+                                    <a className="hover-effect mb-0 popup-image">
+                                        <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={gal5} alt="" />} modal nested>
+                                            <img className="" src={gal5} alt="" />
+                                        </Popup>
+                                        <span class="hover-effect-container">
+                                            <span class="hover-effect-icon">
+                                                <span class="fa fa-plus hover-effect-icon-inner"></span>
+                                            </span>
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
                             <div className="col-sm-6 col-lg-3 mb-2  mb-lg-0">
                                 <div className="grid-item  card border-0">
-                                    <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={gal2} alt="" />} modal nested>
-                                        <div className="">
-                                            <img className="card-img" src={gal2} alt="" />
-                                        </div>
-                                    </Popup>
+                                    <a className="hover-effect mb-0 popup-image">
+                                        <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={gal2} alt="" />} modal nested>
+                                            <img className="" src={gal2} alt="" />
+                                        </Popup>
+                                        <span class="hover-effect-container">
+                                            <span class="hover-effect-icon">
+                                                <span class="fa fa-plus hover-effect-icon-inner"></span>
+                                            </span>
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
                             <div className="col-sm-6 col-lg-3 mb-2 mb-lg-0 ">
                                 <div className="grid-item  card border-0">
-                                    <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={gal7} alt="" />} modal nested>
-                                        <div className="">
-                                            <img className="card-img" src={gal7} alt="" />
-                                        </div>
-                                    </Popup>
+                                    <a className="hover-effect mb-0 popup-image">
+                                        <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={gal7} alt="" />} modal nested>
+                                            <img className="" src={gal7} alt="" />
+                                        </Popup>
+                                        <span class="hover-effect-container">
+                                            <span class="hover-effect-icon">
+                                                <span class="fa fa-plus hover-effect-icon-inner"></span>
+                                            </span>
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
                             <div className="col-sm-6 col-lg-3   ">
                                 <div className="grid-item graphic card border-0">
-                                    <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={gal8} alt="" />} modal nested>
-                                        <div className="">
-                                            <img className="card-img" src={gal8} alt="" />
-                                        </div>
-                                    </Popup>
+                                    <a className="hover-effect mb-0 popup-image">
+                                        <Popup trigger={<img style={{ cursor: 'pointer' }} className="card-img" src={gal8} alt="" />} modal nested>
+                                            <img className="" src={gal8} alt="" />
+                                        </Popup>
+                                        <span class="hover-effect-container">
+                                            <span class="hover-effect-icon">
+                                                <span class="fa fa-plus hover-effect-icon-inner"></span>
+                                            </span>
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -489,7 +560,7 @@ function App() {
                                             <span className="opening-hours-day">Segunda</span>
                                         </span>
                                         <span className="opening-hours-line"></span>
-                                        <span className="opening-hours-time">10:00 - 22:00</span>
+                                        <span className="opening-hours-time">09:00 - 18:00</span>
                                     </span>
                                 </div>
                                 <div className="opening-hours-container font-size-14 ">
@@ -498,7 +569,7 @@ function App() {
                                             <span className="opening-hours-day">Terça</span>
                                         </span>
                                         <span className="opening-hours-line"></span>
-                                        <span className="opening-hours-time">10:00 - 22:00</span>
+                                        <span className="opening-hours-time">09:00 - 18:00</span>
                                     </span>
                                 </div>
                                 <div className="opening-hours-container font-size-14 ">
@@ -507,7 +578,7 @@ function App() {
                                             <span className="opening-hours-day">Quarta</span>
                                         </span>
                                         <span className="opening-hours-line"></span>
-                                        <span className="opening-hours-time">10:00 - 22:00</span>
+                                        <span className="opening-hours-time">09:00 - 18:00</span>
                                     </span>
                                 </div>
                                 <div className="opening-hours-container font-size-14 ">
@@ -516,7 +587,7 @@ function App() {
                                             <span className="opening-hours-day">Quinta</span>
                                         </span>
                                         <span className="opening-hours-line"></span>
-                                        <span className="opening-hours-time">10:00 - 22:00</span>
+                                        <span className="opening-hours-time">09:00 - 18:00</span>
                                     </span>
                                 </div>
                                 <div className="opening-hours-container font-size-14 ">
@@ -525,7 +596,7 @@ function App() {
                                             <span className="opening-hours-day">Sexta</span>
                                         </span>
                                         <span className="opening-hours-line"></span>
-                                        <span className="opening-hours-time">10:00 - 22:00</span>
+                                        <span className="opening-hours-time">09:00 - 18:00</span>
                                     </span>
                                 </div>
                                 <div className="opening-hours-container font-size-14 ">
@@ -534,7 +605,7 @@ function App() {
                                             <span className="opening-hours-day">Sábado</span>
                                         </span>
                                         <span className="opening-hours-line"></span>
-                                        <span className="opening-hours-time">10:00 - 22:00</span>
+                                        <span className="opening-hours-time">09:00 - 01:00</span>
                                     </span>
                                 </div>
                                 <div className="opening-hours-container font-size-14 ">
@@ -543,7 +614,7 @@ function App() {
                                             <span className="opening-hours-day">Domingo</span>
                                         </span>
                                         <span className="opening-hours-line"></span>
-                                        <span className="opening-hours-time">Fechado</span>
+                                        <span className="opening-hours-time">09:00 - 18:00</span>
                                     </span>
                                 </div>
                             </div>

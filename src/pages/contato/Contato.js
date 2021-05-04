@@ -20,10 +20,10 @@ const Contato = () => {
                 <label className="form-label"> NOME <span className="text-danger-alt">*</span></label>
                 <div className="input-group form">
                     <input id="name"
-                        className="form-control "
+                        className="form-control"
                         name="name"
                         type="text"
-                        placeholder="NOME"
+                        placeholder="Seu nome*"
                         value={values.name}
                         onChange={handleChange}
                         required />
@@ -39,7 +39,7 @@ const Contato = () => {
                         className="form-control "
                         name="mail"
                         type="text"
-                        placeholder="EMAIL"
+                        placeholder="Seu email*"
                         value={values.mail}
                         onChange={handleChange}
                         required />
@@ -55,7 +55,7 @@ const Contato = () => {
                         className="form-control "
                         name="phone"
                         type="text"
-                        placeholder="TELEFONE"
+                        placeholder="Seu telefone*"
                         value={values.phone}
                         onChange={handleChange}
                         required />
@@ -71,14 +71,14 @@ const Contato = () => {
                         className="form-control "
                         name="matter"
                         type="text"
-                        placeholder="ASSUNTO"
+                        placeholder="Assunto*"
                         value={values.matter}
                         onChange={handleChange}
                         required />
                 </div>
             </div>
             <div className="col-12">
-                <label className="form-label"> MENSAGEM<span className="text-danger-alt">*</span>
+                <label className="form-label">MENSAGEM<span className="text-danger-alt">*</span>
                 </label>
                 <div className="input-group form mb-5">
                     <textarea
@@ -87,7 +87,7 @@ const Contato = () => {
                         id="message"
                         name="message"
                         type="text"
-                        placeholder="MENSAGEM*"
+                        placeholder="Sua mensagem*"
                         value={values.message}
                         onChange={handleChange}
                         required ></textarea>
