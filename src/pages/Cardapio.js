@@ -74,11 +74,11 @@ export default function Cardapio() {
 
    return (
       <>
-      <Helmet>
-                <meta charSet="utf-8" />
-                <title>Cardápio | Venancio Restaurante & Bar</title>
-                <link rel="canonical" href="http://mysite.com/example" />
-            </Helmet>
+         <Helmet>
+            <meta charSet="utf-8" />
+            <title>Cardápio | Venancio Restaurante & Bar</title>
+            <link rel="canonical" href="http://mysite.com/example" />
+         </Helmet>
          <div className="loader">
             <div className="loader-inner">
                <svg width="120" height="220" viewbox="0 0 100 100" className="loading-spinner" version="1.1"
@@ -1978,11 +1978,11 @@ export default function Cardapio() {
                         <p className="font-size-14 ">© 2021 Venancio. Todos direitos <br /> reservados.</p>
                         <div>
                            <ul className="list-inline mb-0">
-                              <li className="list-inline-item mb-2 mb-lg-0 mr-1"><a className="social-icon" href="#"><span
+                              <li className="list-inline-item mb-2 mb-lg-0 mr-1"><a className="social-icon" href="https://www.facebook.com/venanciorestaurantebar/" target='_blank'><span
                                  className="fab fa-facebook-f"></span></a></li>
-                              <li className="list-inline-item mr-1"><a className="social-icon " href="#"><span
-                                 className="fab fa-twitter"></span></a></li>
-                              <li className="list-inline-item"><a className="social-icon " href="#"><span
+                              {/* <li className="list-inline-item mr-1"><a className="social-icon " href="#"><span
+                                            className="fab fa-twitter"></span></a></li> */}
+                              <li className="list-inline-item"><a className="social-icon " href="https://www.instagram.com/venanciorestaurantebar/" target='_blank'><span
                                  className="fab fa-instagram"></span></a></li>
                            </ul>
                         </div>
@@ -1991,11 +1991,11 @@ export default function Cardapio() {
                         <h3 className="h6 text-white mb-3  font-size-15">Endereço</h3>
                         <address>
                            <ul className="list-group list-group-flush list-group-borderless mb-0">
-                              <li className="list-group-item">+55 (11) 3747-0096 </li>
+                              <li className="list-group-item"><a className='normal-link' href='tel:+551137470096'>+55 (11) 3747-0096</a></li>
                               <li className="list-group-item">
-                                 <a href="mailto:contato@venancio.com.br">contato@venancio.com.br</a>
+                                 <a className='normal-link' href="mailto:contato@venancio.com.br">contato@venancio.com.br</a>
                               </li>
-                              <li className="list-group-item">Rua Serra De Japi, 789 <br /> Vila Gomes Cardim - 03.309-000</li>
+                              <li className="list-group-item"><a className='normal-link' href='https://goo.gl/maps/RYkPvyvUnSmJxdfi9' target='_blank'>Rua Serra De Japi, 789 <br /> Vila Gomes Cardim - 03.309-000</a></li>
                            </ul>
                         </address>
                      </div>
@@ -2067,16 +2067,14 @@ export default function Cardapio() {
                      </div>
                   </div>
                </div>
-               <div className="container-fluid d-flex align-items-center justify-content-center"
-                  style={{ backgroundColor: '#131313', height: '82px' }}>
-                  <div className="col-12 text-sm-center flex-column justify-content-center align-items-center">
+               <div className="container-fluid d-flex align-items-center justify-content-center" style={{ backgroundColor: '#131313', height: '82px' }}>
+                  <div className="col-12 text-sm-center flex-column justify-content-center align-items-center" >
                      <img style={{ maxWidth: '15px' }} src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNTEyIDUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PGc+PHBhdGggZD0ibTQ4NS4yOTEgMTI5LjQwOC0yMjQtMTI4Yy0zLjI4NS0xLjg3Ny03LjI5Ni0xLjg3Ny0xMC41ODEgMGwtMjI0IDEyOGMtMy4zMjggMS44OTktNS4zNzYgNS40NC01LjM3NiA5LjI1OXYyMzQuNjY3YzAgMy44MTkgMi4wNDggNy4zNiA1LjM3NiA5LjI1OWwyMjQgMTI4YzEuNjQzLjkzOSAzLjQ1NiAxLjQwOCA1LjI5MSAxLjQwOHMzLjY0OC0uNDY5IDUuMjkxLTEuNDA4bDIyNC0xMjhjMy4zMjgtMS44OTkgNS4zNzYtNS40NCA1LjM3Ni05LjI1OXYtMjM0LjY2N2MtLjAwMS0zLjgxOS0yLjA0OS03LjM2LTUuMzc3LTkuMjU5eiIvPjwvZz48L2c+PGcvPjxnLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48Zy8+PC9zdmc+" />
-                     <p className="small text-secondary  mb-0">Desenvolvido por <a href="https://www.hokup.com.br/"
-                        target="_blank">hokup</a></p>
+                     <p className="small text-secondary  mb-0">Desenvolvido por <a href="https://www.hokup.com.br/" target="_blank">hokup</a></p>
                   </div>
                </div>
             </footer>
-            <a className="scroll-to-top scroll" href="#wrapper"><span className=" fas fa-arrow-up top-icon "></span></a>
+            <a className="scroll-to-top scroll" href="#petiscos"><span className=" fas fa-arrow-up top-icon "></span></a>
          </div>
       </>
    )

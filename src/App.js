@@ -12,14 +12,15 @@ import { ParallaxProvider } from 'react-scroll-parallax';
 
 function App() {
   return (
-    <Router>
-      <Switch>
-        <ParallaxProvider>
+    <ParallaxProvider>
+      <Router>
+        <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/cardapio' component={Cardapio} />
-        </ParallaxProvider>
-      </Switch>
-    </Router>
+        </Switch>
+      </Router>
+    </ParallaxProvider>
+
   );
 }
 

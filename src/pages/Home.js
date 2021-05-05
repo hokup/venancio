@@ -504,33 +504,41 @@ function App() {
                     <div className="container-fluid">
                         <div className="row no-gutters">
                             <div className="col-sm-6 col-lg-3 vertical-divider">
-                                <div className="text-center py-5">
-                                    <img className="max-width-sm mb-3" src={adressSvg} alt="" />
-                                    <h2 className="h6 mb-0">Endereço</h2>
-                                    <p className="mb-0">Rua Serra de Japi, 789</p>
-                                    <p className="mb-0">Vila Gomes Cardim - 03.309-000</p>
-                                </div>
+                                <a href='https://goo.gl/maps/RYkPvyvUnSmJxdfi9' target="_blank" className='normal-link'>
+                                    <div className="text-center py-5">
+                                        <img className="max-width-sm mb-3" src={adressSvg} alt="" />
+                                        <h2 className="h6 mb-0">Endereço</h2>
+                                        <p className="mb-0">Rua Serra de Japi, 789</p>
+                                        <p className="mb-0">Vila Gomes Cardim - 03.309-000</p>
+                                    </div>
+                                </a>
                             </div>
                             <div className="col-sm-6 col-lg-3 vertical-divider">
-                                <div className="text-center py-5">
-                                    <img className="max-width-sm mb-3" src={phoneSvg} alt="" />
-                                    <h3 className="h6 mb-0">Telefone</h3>
-                                    <p className="mb-0">+55 (11) 3747-0096</p>
-                                </div>
+                                <a href='tel:+551137470096' className='normal-link'>
+                                    <div className="text-center py-5">
+                                        <img className="max-width-sm mb-3" src={phoneSvg} alt="" />
+                                        <h3 className="h6 mb-0">Telefone</h3>
+                                        <p className="mb-0">+55 (11) 3747-0096</p>
+                                    </div>
+                                </a>
                             </div>
                             <div className="col-sm-6 col-lg-3 vertical-divider">
-                                <div className="text-center py-5">
-                                    <img className="max-width-sm mb-3" src={mailSvg} alt="" />
-                                    <h3 className="h6 mb-0">Email</h3>
-                                    <p className="mb-0">contato@venancio.com.br</p>
-                                </div>
+                                <a href='mailto:contato@venancio.com.br' className='normal-link'>
+                                    <div className="text-center py-5">
+                                        <img className="max-width-sm mb-3" src={mailSvg} alt="" />
+                                        <h3 className="h6 mb-0">Email</h3>
+                                        <p className="mb-0">contato@venancio.com.br</p>
+                                    </div>
+                                </a>
                             </div>
                             <div className="col-sm-6 col-lg-3">
-                                <div className="text-center py-5">
-                                    <img className="max-width-sm mb-3" src={instaSvg} alt="" />
-                                    <h3 className="h6 mb-0">Instagram</h3>
-                                    <p className="mb-0">@venancioRestaurante</p>
-                                </div>
+                                <a href='https://www.instagram.com/venanciorestaurantebar/' target="_blank" className='normal-link'>
+                                    <div className="text-center py-5" >
+                                        <img className="max-width-sm mb-3" src={instaSvg} alt="" />
+                                        <h3 className="h6 mb-0">Instagram</h3>
+                                        <p className="mb-0">@venanciorestaurantebar</p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -549,11 +557,11 @@ function App() {
                                 <p className="font-size-14 ">© 2021 Venancio. Todos direitos <br /> reservados.</p>
                                 <div>
                                     <ul className="list-inline mb-0">
-                                        <li className="list-inline-item mb-2 mb-lg-0 mr-1"><a className="social-icon" href="#"><span
+                                        <li className="list-inline-item mb-2 mb-lg-0 mr-1"><a className="social-icon" href="https://www.facebook.com/venanciorestaurantebar/" target='_blank'><span
                                             className="fab fa-facebook-f"></span></a></li>
-                                        <li className="list-inline-item mr-1"><a className="social-icon " href="#"><span
-                                            className="fab fa-twitter"></span></a></li>
-                                        <li className="list-inline-item"><a className="social-icon " href="#"><span
+                                        {/* <li className="list-inline-item mr-1"><a className="social-icon " href="#"><span
+                                            className="fab fa-twitter"></span></a></li> */}
+                                        <li className="list-inline-item"><a className="social-icon " href="https://www.instagram.com/venanciorestaurantebar/" target='_blank'><span
                                             className="fab fa-instagram"></span></a></li>
                                     </ul>
                                 </div>
@@ -562,11 +570,11 @@ function App() {
                                 <h3 className="h6 text-white mb-3  font-size-15">Endereço</h3>
                                 <address>
                                     <ul className="list-group list-group-flush list-group-borderless mb-0">
-                                        <li className="list-group-item">+55 (11) 3747-0096 </li>
+                                        <li className="list-group-item"><a className='normal-link' href='tel:+551137470096'>+55 (11) 3747-0096</a></li>
                                         <li className="list-group-item">
-                                            <a href="mailto:contato@venancio.com.br">contato@venancio.com.br</a>
+                                            <a className='normal-link' href="mailto:contato@venancio.com.br">contato@venancio.com.br</a>
                                         </li>
-                                        <li className="list-group-item">Rua Serra De Japi, 789 <br /> Vila Gomes Cardim - 03.309-000</li>
+                                        <li className="list-group-item"><a className='normal-link' href='https://goo.gl/maps/RYkPvyvUnSmJxdfi9' target='_blank'>Rua Serra De Japi, 789 <br /> Vila Gomes Cardim - 03.309-000</a></li>
                                     </ul>
                                 </address>
                             </div>
