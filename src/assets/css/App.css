@@ -22,7 +22,7 @@ text-decoration: none !important;
 }
 
 .success-msg{
-  -webkit-animation: sucess 3s ease-out;
+  -webkit-animation: sucess 3s ease-out forwards;
 }
 
 @keyframes anvil {
