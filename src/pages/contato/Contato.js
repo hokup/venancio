@@ -78,12 +78,11 @@ const Contato = () => {
                 </div>
             </div>
             <div className="col-12">
-                <label className="form-label">MENSAGEM<span className="text-danger-alt">*</span>
-                </label>
-                <div className="input-group form mb-5">
                 <div className="error-container">
-                        {errors.message && <p>{errors.message}</p>}
-                    </div>
+                    {errors.message && <p>{errors.message}</p>}
+                </div>
+                <label className="form-label">MENSAGEM<span className="text-danger-alt">*</span></label>
+                <div className="input-group form mb-5">
                     <textarea
                         className="form-control"
                         rows="6"
@@ -97,12 +96,12 @@ const Contato = () => {
                 </div>
             </div>
             <div className="col">
-                <div className="text-center" style={{position:'relative'}}>
-                    { sent ? <p className="success-msg" style={{color:'green', position:'absolute', top:'0px', left:'50%', marginLeft:'-125px', width:'250px'}}>Mensagem enviada com sucesso!</p> : null }
-                    <button name="submit" 
-                    style={{marginTop:'50px'}}
-                    className="btn btn-primary btn-wide"
-                    onClick={handlePress}>ENVIAR MENSAGEM</button>
+                <div className="text-center" style={{ position: 'relative' }}>
+                    {sent ? <p className="success-msg" style={{ color: 'green', position: 'absolute', top: '0px', left: '50%', marginLeft: '-125px', width: '250px' }}>Mensagem enviada com sucesso!</p> : null}
+                    <button name="submit"
+                        style={{ marginTop: '50px' }}
+                        className="btn btn-primary btn-wide"
+                        onClick={handlePress}>ENVIAR MENSAGEM</button>
                 </div>
             </div>
         </div>
