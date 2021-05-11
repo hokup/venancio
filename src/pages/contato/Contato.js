@@ -8,7 +8,7 @@ import useForm from './useForm';
 import validate from './validateInfo';
 
 const Contato = () => {
-    const { handleChange, values, handlePress, errors } =
+    const { handleChange, values, handlePress, errors, sent } =
         useForm(validate);
 
     return (
@@ -81,6 +81,9 @@ const Contato = () => {
                 <label className="form-label">MENSAGEM<span className="text-danger-alt">*</span>
                 </label>
                 <div className="input-group form mb-5">
+                <div className="error-container">
+                        {errors.message && <p>{errors.message}</p>}
+                    </div>
                     <textarea
                         className="form-control"
                         rows="6"
@@ -95,6 +98,7 @@ const Contato = () => {
             </div>
             <div className="col">
                 <div className="text-center">
+                    { sent ? <p>mensagem enviada</p> : null }
                     <button name="submit" 
                     className="btn btn-primary btn-wide"
                     onClick={handlePress}>ENVIAR MENSAGEM</button>

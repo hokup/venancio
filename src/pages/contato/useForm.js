@@ -9,6 +9,8 @@ const useForm = validate => {
         message: ''
     });
 
+    const [sent, setSent] = useState(false);
+
     const [errors, setErrors] = useState({});
 
     const handleChange = e => {
@@ -39,10 +41,9 @@ const useForm = validate => {
             .then(function (res) {
 
                 if (res.status == 202) {
-                    setTimeout("location.href = 'https://venancio.vercel.app/';", 100);
-                } else {
-                    
-                }
+                    // setTimeout("location.href = 'https://venancio.vercel.app/';", 100);
+                    setSent(true);
+                } 
 
             }).catch(function (err) {
                 console.log(err);
@@ -50,7 +51,7 @@ const useForm = validate => {
             });
     };
 
-    return { handleChange, values, handlePress, errors };
+    return { handleChange, values, handlePress, errors, sent };
 
 };
 
