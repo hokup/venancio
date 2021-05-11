@@ -97,9 +97,10 @@ const Contato = () => {
                 </div>
             </div>
             <div className="col">
-                <div className="text-center">
-                    { sent ? <p style={{color:'green'}}>mensagem enviada com sucesso</p> : null }
+                <div className="text-center" style={{position:'relative'}}>
+                    { sent ? <p className="success-msg" style={{color:'green', position:'absolute', top:'0px', left:'50%', marginLeft:'-125px', width:'250px'}}>Mensagem enviada com sucesso!</p> : null }
                     <button name="submit" 
+                    style={{marginTop:'50px'}}
                     className="btn btn-primary btn-wide"
                     onClick={handlePress}>ENVIAR MENSAGEM</button>
                 </div>
