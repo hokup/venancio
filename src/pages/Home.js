@@ -25,20 +25,20 @@ import img1 from '../assets/img/1.jpg'
 import img4 from '../assets/img/4.jpg'
 
 // Gallery
-import gal1 from '../assets/img/gallery/1.jpg'
-import gal2 from '../assets/img/gallery/2.jpg'
-import gal3 from '../assets/img/gallery/3.jpg'
-import gal4 from '../assets/img/gallery/4.jpg'
-import gal5 from '../assets/img/gallery/5.jpg'
-import gal6 from '../assets/img/gallery/6.jpg'
-import gal7 from '../assets/img/gallery/7.jpg'
-import gal8 from '../assets/img/gallery/8.jpg'
+import gal1 from '../assets/img/gallery/1.png'
+import gal2 from '../assets/img/gallery/2.png'
+import gal3 from '../assets/img/gallery/3.png'
+import gal4 from '../assets/img/gallery/4.png'
+import gal5 from '../assets/img/gallery/5.png'
+import gal6 from '../assets/img/gallery/6.png'
+import gal7 from '../assets/img/gallery/7.png'
+import gal8 from '../assets/img/gallery/8.png'
 
 // Offset
-import off1 from '../assets/img/offset/1.jpg'
-import off2 from '../assets/img/offset/2.jpg'
-import off3 from '../assets/img/offset/3.jpg'
-import off4 from '../assets/img/offset/4.jpg'
+import off1 from '../assets/img/offset/1.png'
+import off2 from '../assets/img/offset/2.png'
+import off3 from '../assets/img/offset/3.png'
+import off4 from '../assets/img/offset/4.png'
 
 // Avatar
 import avatar from '../assets/img/avatar/1.jpg'

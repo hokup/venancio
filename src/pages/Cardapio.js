@@ -9,7 +9,7 @@ import logoDark from '../assets/svg/logo-dark.svg'
 import venancioLogo from '../assets/svg/venancio-logo.svg'
 
 // Images jpg
-import img1 from '../assets/img/1.jpg'
+import img1 from '../assets/img/2.jpg'
 import img16 from '../assets/img/16.jpg'
 import img20 from '../assets/img/20.jpg'
 import img22 from '../assets/img/22.jpg'
@@ -116,7 +116,10 @@ export default function Cardapio() {
                </div>
             </header>
             <section className="spacer-xlg-alt jarallax gradient-overlay gradient-overlay-dark" id="petiscos">
-               <ParallaxImage imgSrc={img1} />
+               {/* <ParallaxImage imgSrc={img1} /> */}
+               <Parallax y={[-30, -60]} tagOuter="figure" className="jarallax-img">
+                  <img loading="lazy" className="parallax-img" src={img1} />
+               </Parallax>
                <div className="container">
                   <div className="row justify-content-center">
                      <div className="col">
@@ -306,7 +309,10 @@ export default function Cardapio() {
                </div>
             </section>
             <section className="spacer-xlg jarallax gradient-overlay gradient-overlay-dark" id="pratosprincipais">
-               <ParallaxImage imgSrc={img16} />
+               {/* <ParallaxImage imgSrc={img16} /> */}
+               <Parallax y={[-30, -60]} tagOuter="figure" className="jarallax-img">
+                  <img loading="lazy" className="parallax-img" src={img16} />
+               </Parallax>
                <div className="container">
                   <div className="row justify-content-center">
                      <div className="col">
@@ -740,8 +746,10 @@ export default function Cardapio() {
                </div>
             </section>
             <section className="spacer-xlg jarallax gradient-overlay gradient-overlay-dark" id="bebidas">
-               <ParallaxImage imgSrc={img22} />
-
+               {/* <ParallaxImage imgSrc={img22} /> */}
+               <Parallax y={[-20, -50]} tagOuter="figure" className="jarallax-img">
+                  <img loading="lazy" className="parallax-img" src={img22} />
+               </Parallax>
                <div className="container">
                   <div className="row justify-content-center">
                      <div className="col">
