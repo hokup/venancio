@@ -98,7 +98,7 @@ const Contato = () => {
             </div>
             <div className="col">
                 <div className="text-center">
-                    { sent ? <p>mensagem enviada</p> : null }
+                    { sent ? <p style={{color:'green'}}>mensagem enviada com sucesso</p> : null }
                     <button name="submit" 
                     className="btn btn-primary btn-wide"
                     onClick={handlePress}>ENVIAR MENSAGEM</button>
