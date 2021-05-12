@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 import Home from './pages/Home';
 import Cardapio from './pages/Cardapio';
+import CardapioQr from './pages/CardapioQr';
 import { ParallaxProvider } from 'react-scroll-parallax';
 
 
@@ -17,10 +18,10 @@ function App() {
         <Switch>
           <Route exact path='/' component={Home} />
           <Route exact path='/cardapio' component={Cardapio} />
+          <Route exact path='/8bjLq5IhiYA&ab' component={CardapioQr} />
         </Switch>
       </Router>
     </ParallaxProvider>
-
   );
 }
 

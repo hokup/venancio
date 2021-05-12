@@ -144,16 +144,16 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Croquete de
                               Parma</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$35,00</span>
-                              <p className="mb-0 font-size-14 description-width">Croquete de Parma com Bechamel e Maionese de Tabasco</p>
+                              <span className="menu-price price-none mb-0 h6 price-none">R$35,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Croquete de Parma com Bechamel e Maionese de Tabasco</p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Croqueta de Cordeiro com Molho de Iogurte</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$35,00</span>
-                              <p className="mb-0 font-size-14 description-width">Croquete de Cordeiro desfiado com Molho de Iogurte e Hortelã</p>
+                              <span className="menu-price price-none  mb-0 h6">R$35,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Croquete de Cordeiro desfiado com Molho de Iogurte e Hortelã</p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -161,8 +161,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Croqueta de
                               Salmao com Molho Teriyaki</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$35,00</span>
-                              <p className="mb-0 font-size-14 description-width">Croquete de Salmão com Molho Teriyaki</p>
+                              <span className="menu-price price-none mb-0 h6">R$35,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Croquete de Salmão com Molho Teriyaki</p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -170,8 +170,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Lula à
                               provençal</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$60,00</span>
-                              <p className="mb-0 font-size-14 description-width">Anéis e Tentáculos de Lula a moda Provençal:
+                              <span className="menu-price price-none mb-0 h6">R$60,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Anéis e Tentáculos de Lula a moda Provençal:
                               cebola, alho e
                            salsinha. Servido com Aioli de Páprica Picante - acompanha Pão de Fermentação Natural </p>
                            </div>
@@ -181,8 +181,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Mexilhões ao
                               Vinho Branco</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$45,00</span>
-                              <p className="mb-0 font-size-14 description-width">Mexilhões ao Vinho Branco servidos na própria
+                              <span className="menu-price price-none mb-0 h6">R$45,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Mexilhões ao Vinho Branco servidos na própria
                               casca - acompanha Pão
                            de Fermentação Natural</p>
                            </div>
@@ -192,8 +192,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Mini
                               Almondegas à Parmegiana</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$40,00</span>
-                              <p className="mb-0 font-size-14 description-width">Bolinhas bem temperadas de carne com Molho de
+                              <span className="menu-price price-none mb-0 h6">R$40,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Bolinhas bem temperadas de carne com Molho de
                               Tomate da casa e
                            bastante Queijo gratinado</p>
                            </div>
@@ -203,8 +203,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Bolinho de
                               Bacalhau</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$45,00</span>
-                              <p className="mb-0 font-size-14 description-width">O tradicional - feito aqui. Acompanha limão a
+                              <span className="menu-price price-none mb-0 h6">R$45,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">O tradicional - feito aqui. Acompanha limão a
                               francesa e azeite pra
                            xuxar.</p>
                            </div>
@@ -214,8 +214,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Camarão
                               Empanado</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$119,00</span>
-                              <p className="mb-0 font-size-14 description-width">Porção de Camarão empanado com Coco e servido com
+                              <span className="menu-price price-none mb-0 h6">R$119,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Porção de Camarão empanado com Coco e servido com
                               Maionese de
                            Gremolata.</p>
                            </div>
@@ -225,8 +225,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Polvo à
                               Vinagrete</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$57,00</span>
-                              <p className="mb-0 font-size-14 description-width">Polvo cozido e temperado ao estilo Vinagrete -
+                              <span className="menu-price price-none mb-0 h6">R$57,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Polvo cozido e temperado ao estilo Vinagrete -
                               acompanha Pão de
                            Fermentação Natural</p>
                            </div>
@@ -236,8 +236,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Bruschetta de
                               Cogumelos Frescos</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$25,00</span>
-                              <p className="mb-0 font-size-14 description-width">Um clássico com recheio revisitado. Nosso mix de
+                              <span className="menu-price price-none mb-0 h6">R$25,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Um clássico com recheio revisitado. Nosso mix de
                               cogumelos frescos
                            leva Eryngui, Shimeji, Shitake e Paris.</p>
                            </div>
@@ -247,8 +247,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Bruschetta de
                               Tomate e Búfala</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$25,00</span>
-                              <p className="mb-0 font-size-14 description-width">Pode pedir! É clássico, mas é top!</p>
+                              <span className="menu-price price-none mb-0 h6">R$25,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Pode pedir! É clássico, mas é top!</p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -256,8 +256,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Dueto de
                               Bruschetas</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$25,00</span>
-                              <p className="mb-0 font-size-14 description-width">Uma de Cada!</p>
+                              <span className="menu-price price-none mb-0 h6">R$25,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uma de Cada!</p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -265,8 +265,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Steak
                               Tartare</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$39,00</span>
-                              <p className="mb-0 font-size-14 description-width">Filet Mignon picado na ponta da faca - servido
+                              <span className="menu-price price-none mb-0 h6">R$39,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Filet Mignon picado na ponta da faca - servido
                               cru. acompanha Pão
                            de Fermentação Natural</p>
                            </div>
@@ -276,8 +276,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Tartare de
                               Salmão</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$45,00</span>
-                              <p className="mb-0 font-size-14 description-width">Camarão e Salmão marinados, temperados com Dill e
+                              <span className="menu-price price-none mb-0 h6">R$45,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Camarão e Salmão marinados, temperados com Dill e
                               Iogurte Natural -
                            acompanha Pão Pita Caseiro</p>
                            </div>
@@ -287,8 +287,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Torre
                               Grega</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$39,00</span>
-                              <p className="mb-0 font-size-14 description-width">Quibe cru, Tabule, Coalhada Seca e Cebola Frita -
+                              <span className="menu-price price-none mb-0 h6">R$39,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Quibe cru, Tabule, Coalhada Seca e Cebola Frita -
                               Acompanha Pão
                            Pita Caseiro</p>
                            </div>
@@ -298,8 +298,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Batata
                               Frita</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$24,99</span>
-                              <p className="mb-0 font-size-14 description-width">Batata Frita! Sequinha e Crocante!</p>
+                              <span className="menu-price price-none mb-0 h6">R$24,99</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Batata Frita! Sequinha e Crocante!</p>
                            </div>
                         </div>
                      </div>
@@ -331,8 +331,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Espinafre com
                               Buchette e Balsâmico</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$39,00</span>
-                              <p className="mb-0 font-size-14 description-width">Salada de Espinafre, Nozes, Queijo Buchette
+                              <span className="menu-price price-none mb-0 h6">R$39,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Salada de Espinafre, Nozes, Queijo Buchette
                               Empanado e Molho de
                            Balsâmico</p>
                            </div>
@@ -342,8 +342,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Niçoise</span>
                               </h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$49,00</span>
-                              <p className="mb-0 font-size-14 description-width">Mix de Folhas Baby, Atum em Crosta de Gergelim,
+                              <span className="menu-price price-none mb-0 h6">R$49,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Mix de Folhas Baby, Atum em Crosta de Gergelim,
                               Ovo e Ervilhas
                            Tortas - Servida com Molho de Limão Siciliano</p>
                            </div>
@@ -353,8 +353,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Panzanella com
                               Carpaccio de Abobrinha</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$36,00</span>
-                              <p className="mb-0 font-size-14 description-width">Carpaccio de Abobrinha Marinada. Rúcula, Tomate
+                              <span className="menu-price price-none mb-0 h6">R$36,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Carpaccio de Abobrinha Marinada. Rúcula, Tomate
                               Confit, Azeitonas
                            Pretas e Pepino – Mollho de Balsâmico</p>
                            </div>
@@ -364,8 +364,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Síria</span>
                               </h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$39,00</span>
-                              <p className="mb-0 font-size-14 description-width">Cous Cous Marroquino, Berinjela Defumada,
+                              <span className="menu-price price-none mb-0 h6">R$39,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Cous Cous Marroquino, Berinjela Defumada,
                               Castanhas, Passas e Zatar
                            - Molho de Iogurte</p>
                            </div>
@@ -376,8 +376,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Beterraba com
                               Iogurte defumado</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$39,00</span>
-                              <p className="mb-0 font-size-14 description-width">Risoto rosa de Beterraba e Iogurte Defumado</p>
+                              <span className="menu-price price-none  mb-0 h6">R$39,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Risoto rosa de Beterraba e Iogurte Defumado</p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -385,8 +385,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Cordeiro</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$65,00</span>
-                              <p className="mb-0 font-size-14 description-width">Risoto de Paleta Desfiada, Cebola Caramelizada e
+                              <span className="menu-price price-none  mb-0 h6">R$65,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Risoto de Paleta Desfiada, Cebola Caramelizada e
                            Hortelã frita</p>
                            </div>
                         </div>
@@ -395,8 +395,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Nero</span>
                               </h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$69,00</span>
-                              <p className="mb-0 font-size-14 description-width">Arroz Negro com Frutos do Mar</p>
+                              <span className="menu-price price-none  mb-0 h6">R$69,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Arroz Negro com Frutos do Mar</p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -404,8 +404,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Cogumelos</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$65,00</span>
-                              <p className="mb-0 font-size-14 description-width">Risoto de Funghi e Cogumelos Frescos com BomBom
+                              <span className="menu-price price-none  mb-0 h6">R$65,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Risoto de Funghi e Cogumelos Frescos com BomBom
                               de Mignon e Molho
                            Glace</p>
                            </div>
@@ -416,8 +416,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Fet. Ragu
                               Polvo</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$65,00</span>
-                              <p className="mb-0 font-size-14 description-width">Massa feita em casa com Polvo e Ragu de Linguiça
+                              <span className="menu-price price-none  mb-0 h6">R$65,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Massa feita em casa com Polvo e Ragu de Linguiça
                               Fresca -
                            verdadeiro casamento entre mar e montanha</p>
                            </div>
@@ -427,8 +427,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Gnocchi</span>
                               </h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$39,00</span>
-                              <p className="mb-0 font-size-14 description-width">Gnocchi de Semolina Gratinado com Fonduta de
+                              <span className="menu-price price-none  mb-0 h6">R$39,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Gnocchi de Semolina Gratinado com Fonduta de
                            Parmesão</p>
                            </div>
                         </div>
@@ -437,8 +437,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Spaghetti</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$69,00</span>
-                              <p className="mb-0 font-size-14 description-width">Massa seca italiana com Molho de Tomates e Frutos
+                              <span className="menu-price price-none  mb-0 h6">R$69,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Massa seca italiana com Molho de Tomates e Frutos
                               do Mar da casa
                         </p>
                            </div>
@@ -448,8 +448,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Ravioli</span>
                               </h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$59,00</span>
-                              <p className="mb-0 font-size-14 description-width">Massa feita na casa recheada de Frutos do Mar.
+                              <span className="menu-price price-none  mb-0 h6">R$59,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Massa feita na casa recheada de Frutos do Mar.
                               Acompanha ervilhas
                            tortas, molho Bisque e Ovas</p>
                            </div>
@@ -459,8 +459,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Lasanha</span>
                               </h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$69,00</span>
-                              <p className="mb-0 font-size-14 description-width">Massa feita na casa com Bacalhau Confit, Bechamel
+                              <span className="menu-price price-none  mb-0 h6">R$69,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Massa feita na casa com Bacalhau Confit, Bechamel
                               e Espinafre
                            fresco. Servido juntamente de tomates assados.</p>
                            </div>
@@ -471,8 +471,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Robalo</span>
                               </h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$79,00</span>
-                              <p className="mb-0 font-size-14 description-width">Pescado em crosta de amêndoas com aspargos
+                              <span className="menu-price price-none  mb-0 h6">R$79,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Pescado em crosta de amêndoas com aspargos
                               grelhados, tapenade de
                            azeitonas e molho de limão siciliano</p>
                            </div>
@@ -482,8 +482,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Salmao e
                               Camarão</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$74,00</span>
-                              <p className="mb-0 font-size-14 description-width">Salmão com Camarão e Bisque ao Molho de
+                              <span className="menu-price price-none  mb-0 h6">R$74,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Salmão com Camarão e Bisque ao Molho de
                               Manjericão e Mil Folhas de
                            Batata</p>
                            </div>
@@ -493,8 +493,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Atum em
                               Crosta</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$59,00</span>
-                              <p className="mb-0 font-size-14 description-width">Atum em Crosta de Gergelim com Mousseline de
+                              <span className="menu-price price-none  mb-0 h6">R$59,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Atum em Crosta de Gergelim com Mousseline de
                               Mandioquinha com
                            Wasabi, Gremolata e Farofa Crocante</p>
                            </div>
@@ -504,8 +504,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Lombo Bacalhau
                               Confit</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$99,00</span>
-                              <p className="mb-0 font-size-14 description-width">Lombo de Bacalhau Confit com Batata Assada,
+                              <span className="menu-price price-none  mb-0 h6">R$99,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Lombo de Bacalhau Confit com Batata Assada,
                               Tomates Tostados,
                            Brócolis, Azeitonas e Ovo cozido</p>
                            </div>
@@ -515,8 +515,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Polvo</span>
                               </h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$69,00</span>
-                              <p className="mb-0 font-size-14 description-width">Polvo com Molho de Ervas, Batata Assada, Tomates
+                              <span className="menu-price price-none  mb-0 h6">R$69,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Polvo com Molho de Ervas, Batata Assada, Tomates
                               Confit e Tostados
                            – Servido com Aioli de Páprica Picante</p>
                            </div>
@@ -527,8 +527,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Mignon
                               recheado</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$69,00</span>
-                              <p className="mb-0 font-size-14 description-width">Filet Mignon recheado de Brie e Aspargos envolto
+                              <span className="menu-price price-none  mb-0 h6">R$69,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Filet Mignon recheado de Brie e Aspargos envolto
                               de Parma com
                            Risoto de Parmesão</p>
                            </div>
@@ -538,8 +538,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Prime Rib
                               Suíno</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$55,00</span>
-                              <p className="mb-0 font-size-14 description-width">Prime Rib Suino à Milanesa, Mousseline de
+                              <span className="menu-price price-none  mb-0 h6">R$55,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Prime Rib Suino à Milanesa, Mousseline de
                               Mandioquinha, Gremolata e
                            Cebola Caramelizada</p>
                            </div>
@@ -549,8 +549,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Bombom de
                               Mignon</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$69,00</span>
-                              <p className="mb-0 font-size-14 description-width">Bombom de Mignon ao Molho Mostarda com Polenta
+                              <span className="menu-price price-none  mb-0 h6">R$69,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Bombom de Mignon ao Molho Mostarda com Polenta
                            Frita e Brócolis</p>
                            </div>
                         </div>
@@ -559,8 +559,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Galantine de
                               Frango</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$49,00</span>
-                              <p className="mb-0 font-size-14 description-width">Gallantine de Frango recheada de Linguiça e
+                              <span className="menu-price price-none  mb-0 h6">R$49,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Gallantine de Frango recheada de Linguiça e
                               Pistache com Parma,
                            acompanha Risoto de Tomate</p>
                            </div>
@@ -571,8 +571,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Cassoulet com
                               Costelinha</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$119,00</span>
-                              <p className="mb-0 font-size-14 description-width">Feijão Branco com Linguiças e Costelinha
+                              <span className="menu-price price-none  mb-0 h6">R$119,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Feijão Branco com Linguiças e Costelinha
                               Glaceada, servido junto de
                            arroz branco e farofinha crocante</p>
                            </div>
@@ -582,8 +582,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Paleta de
                               Cordeiro</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$230,00</span>
-                              <p className="mb-0 font-size-14 description-width">Paleta de Cordeiro inteira na mesa. Acompanha mil
+                              <span className="menu-price price-none  mb-0 h6">R$230,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Paleta de Cordeiro inteira na mesa. Acompanha mil
                               folhas de batata
                            e mini legumes assados</p>
                            </div>
@@ -593,8 +593,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Caldeirada de
                               Peixe e Frutos do Mar</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$179,00</span>
-                              <p className="mb-0 font-size-14 description-width">Acompanha arroz e farofa crocante.</p>
+                              <span className="menu-price price-none  mb-0 h6">R$179,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Acompanha arroz e farofa crocante.</p>
                            </div>
                         </div>
                         <h2 className="h3 font-alt mb-6 mt-6 text-center">Kids</h2>
@@ -603,8 +603,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Escalope</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">Escalope de Mignon, arroz e batatas assadas</p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Escalope de Mignon, arroz e batatas assadas</p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -612,8 +612,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Peixe</span>
                               </h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$34,00</span>
-                              <p className="mb-0 font-size-14 description-width">Pescado grelhado, arroz e pure de mandioquinha
+                              <span className="menu-price price-none  mb-0 h6">R$34,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Pescado grelhado, arroz e pure de mandioquinha
                         </p>
                            </div>
                         </div>
@@ -622,8 +622,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Bolonhesa</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$24,00</span>
-                              <p className="mb-0 font-size-14 description-width">Penne ao molho bolonhesa</p>
+                              <span className="menu-price price-none  mb-0 h6">R$24,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Penne ao molho bolonhesa</p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -631,8 +631,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Molho
                               Tomate</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$24,00</span>
-                              <p className="mb-0 font-size-14 description-width">Penne ao molho de tomates</p>
+                              <span className="menu-price price-none  mb-0 h6">R$24,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Penne ao molho de tomates</p>
                            </div>
                         </div>
                      </div>
@@ -661,8 +661,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Panna
                               Cotta</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">Creme e Iogurte com Frutas Vermelhas e Crocante
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Creme e Iogurte com Frutas Vermelhas e Crocante
                            de Laranja</p>
                            </div>
                         </div>
@@ -671,8 +671,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Tiramisu</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$34,00</span>
-                              <p className="mb-0 font-size-14 description-width">Um clássico totalmente feito na casa. A
+                              <span className="menu-price price-none  mb-0 h6">R$34,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Um clássico totalmente feito na casa. A
                               Savoiardi, aquele
                            biscoitinho, também!</p>
                            </div>
@@ -682,8 +682,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Salame</span>
                               </h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$24,00</span>
-                              <p className="mb-0 font-size-14 description-width">Servido no formato de salame, pronto pra fatiar e
+                              <span className="menu-price price-none  mb-0 h6">R$24,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Servido no formato de salame, pronto pra fatiar e
                               dividir na mesa.
                            Acompanha sorvete de maracujá</p>
                            </div>
@@ -693,8 +693,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Tortino</span>
                               </h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$24,00</span>
-                              <p className="mb-0 font-size-14 description-width">Bolinho de amêndoas assado com recheio de limão e
+                              <span className="menu-price price-none  mb-0 h6">R$24,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Bolinho de amêndoas assado com recheio de limão e
                               sorvete de frutas
                            vermelhas.</p>
                            </div>
@@ -704,8 +704,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Petit
                               Gateau</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$24,00</span>
-                              <p className="mb-0 font-size-14 description-width">De chocolate! Acompanha sorvete de baunilha.</p>
+                              <span className="menu-price price-none  mb-0 h6">R$24,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">De chocolate! Acompanha sorvete de baunilha.</p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -713,8 +713,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Manjar</span>
                               </h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$24,00</span>
-                              <p className="mb-0 font-size-14 description-width">Manjar de doce de leite com coco, calda de doce
+                              <span className="menu-price price-none  mb-0 h6">R$24,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Manjar de doce de leite com coco, calda de doce
                               de leite morna e
                            sorvete de Tapioca.</p>
                            </div>
@@ -724,8 +724,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Canolli</span>
                               </h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$24,00</span>
-                              <p className="mb-0 font-size-14 description-width">O poderoso chefão benhê!</p>
+                              <span className="menu-price price-none  mb-0 h6">R$24,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">O poderoso chefão benhê!</p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -733,8 +733,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Verrine</span>
                               </h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$24,00</span>
-                              <p className="mb-0 font-size-14 description-width">Servido montado na taça. Morango marinado no
+                              <span className="menu-price price-none  mb-0 h6">R$24,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Servido montado na taça. Morango marinado no
                               Balsâmico, Chantily de
                            Morango e Suspiros</p>
                            </div>
@@ -769,8 +769,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Água</span>
                               </h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">Com ou sem gás</p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Com ou sem gás</p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -778,8 +778,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Água
                               Tônica</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">Schweppes</p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Schweppes</p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -787,8 +787,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Refrigerante</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">Coca-Cola, Coca-Cola Zero, Sprite, Guaraná
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Coca-Cola, Coca-Cola Zero, Sprite, Guaraná
                            Antarctica e Guaraná Antarctica Zero</p>
                            </div>
                         </div>
@@ -797,8 +797,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Suco
                               Natural</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">Frutas da estação</p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Frutas da estação</p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -806,8 +806,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Chá
                               Mate</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$12,90</span>
-                              <p className="mb-0 font-size-14 description-width">Erva mate</p>
+                              <span className="menu-price price-none  mb-0 h6">R$12,90</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Erva mate</p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -815,8 +815,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Chá de
                               Hibisco</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$12,90</span>
-                              <p className="mb-0 font-size-14 description-width">Flor de hibisco</p>
+                              <span className="menu-price price-none  mb-0 h6">R$12,90</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Flor de hibisco</p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -824,8 +824,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Creta sem
                               Álcool</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$12,90</span>
-                              <p className="mb-0 font-size-14 description-width">Purê de morango, xarope de morango e água com gás
+                              <span className="menu-price price-none  mb-0 h6">R$12,90</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Purê de morango, xarope de morango e água com gás
                         </p>
                            </div>
                         </div>
@@ -834,8 +834,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Ginger sem
                               Álcool</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$12,90</span>
-                              <p className="mb-0 font-size-14 description-width">Xarope de gengibre e água com gás</p>
+                              <span className="menu-price price-none  mb-0 h6">R$12,90</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Xarope de gengibre e água com gás</p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -843,8 +843,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Ginger Lemon
                               sem Álcool</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$12,90</span>
-                              <p className="mb-0 font-size-14 description-width">Xarope de gengibre, limão siciliano e água com
+                              <span className="menu-price price-none  mb-0 h6">R$12,90</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Xarope de gengibre, limão siciliano e água com
                            gás</p>
                            </div>
                         </div>
@@ -853,8 +853,8 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Café
                               Espresso</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$12,90</span>
-                              <p className="mb-0 font-size-14 description-width">Café Nespresso</p>
+                              <span className="menu-price price-none  mb-0 h6">R$12,90</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">Café Nespresso</p>
                            </div>
                         </div>
 
@@ -864,7 +864,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Caipirinha</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$26,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$26,00</span>
                               <p className="mb-0 font-size-14">Frutas da estação</p>
                            </div>
                         </div>
@@ -873,7 +873,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Caipiroska</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$26,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$26,00</span>
                               <p className="mb-0 font-size-14">Frutas da estação</p>
                            </div>
                         </div>
@@ -882,7 +882,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Saqueirinha</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$28,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$28,00</span>
                               <p className="mb-0 font-size-14">Frutas da estação</p>
                            </div>
                         </div>
@@ -893,7 +893,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Jager Bomb</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$28,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$28,00</span>
                               <p className="mb-0 font-size-14">Jagermeister e Red Bull</p>
                            </div>
                         </div>
@@ -902,7 +902,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Bolinho da Vovó</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$22,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$22,00</span>
                               <p className="mb-0 font-size-14">Frangelico, vodka, xarope de baunilha e espuma cítrica</p>
                            </div>
                         </div>
@@ -911,7 +911,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Venancio</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$18,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$18,00</span>
                               <p className="mb-0 font-size-14">Maracujá, capim santo, vodka e açucar</p>
                            </div>
                         </div>
@@ -920,7 +920,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Campo Dourado</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$33,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$33,00</span>
                               <p className="mb-0 font-size-14">Gin, maracujá, xarope de maça verde, abacaxi e Red Bull</p>
                            </div>
                         </div>
@@ -929,7 +929,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Ibiza</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$33,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$33,00</span>
                               <p className="mb-0 font-size-14">Aperol, limão, Red Bull Melancia</p>
                            </div>
                         </div>
@@ -938,7 +938,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Monaco</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$28,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$28,00</span>
                               <p className="mb-0 font-size-14">Espumante, maracujá e pêssego</p>
                            </div>
                         </div>
@@ -947,7 +947,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Drink de Paçoca</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$18,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$18,00</span>
                               <p className="mb-0 font-size-14">Vodka, paçoca, creme de leite e açucar</p>
                            </div>
                         </div>
@@ -956,7 +956,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Drink de Côco</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$18,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$18,00</span>
                               <p className="mb-0 font-size-14">Vodka, leite de côco, creme de leite, xarope de açucar</p>
                            </div>
                         </div>
@@ -967,7 +967,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Apple Martini</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$18,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$18,00</span>
                               <p className="mb-0 font-size-14">Cointreau, vodka, licor de maça verde</p>
                            </div>
                         </div>
@@ -976,7 +976,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Negroni</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$18,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$18,00</span>
                               <p className="mb-0 font-size-14">Gin, Martini Rosso, Campari</p>
                            </div>
                         </div>
@@ -985,7 +985,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Whisky Sour</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$24,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$24,00</span>
                               <p className="mb-0 font-size-14">Jack Daniels, limão, xarope de açucar e ovo</p>
                            </div>
                         </div>
@@ -994,7 +994,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Mojito</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$18,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$18,00</span>
                               <p className="mb-0 font-size-14">Limão, Rum, hortelã, água com gás e xarope de açucar</p>
                            </div>
                         </div>
@@ -1003,7 +1003,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Dry Martini</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$24,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$24,00</span>
                               <p className="mb-0 font-size-14">Gin, Martini Dry e azeitona</p>
                            </div>
                         </div>
@@ -1012,7 +1012,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Apparent Sour</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$24,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$24,00</span>
                               <p className="mb-0 font-size-14">Aperol, St. Germain e limão</p>
                            </div>
                         </div>
@@ -1021,7 +1021,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Moscow Mule</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$18,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$18,00</span>
                               <p className="mb-0 font-size-14">Vodka, limão, xarope de gengibre e espuma cítrica</p>
                            </div>
                         </div>
@@ -1030,7 +1030,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Margarita</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$28,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$28,00</span>
                               <p className="mb-0 font-size-14">Tequila, limão e Cointreau</p>
                            </div>
                         </div>
@@ -1039,7 +1039,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Jager Ginbre</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$22,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$22,00</span>
                               <p className="mb-0 font-size-14">Jagermeister, xarope de gengibre e limão</p>
                            </div>
                         </div>
@@ -1048,7 +1048,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Cararrilho</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$22,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$22,00</span>
                               <p className="mb-0 font-size-14">Licor 43 e café expresso</p>
                            </div>
                         </div>
@@ -1057,7 +1057,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Cosmopolitan</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$22,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$22,00</span>
                               <p className="mb-0 font-size-14">Vodka, limão, laranja e cranberry</p>
                            </div>
                         </div>
@@ -1066,7 +1066,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Aperol Spritz</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$22,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$22,00</span>
                               <p className="mb-0 font-size-14">Aperol, espumante e água com gás</p>
                            </div>
                         </div>
@@ -1075,7 +1075,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Fitz Gerald</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$26,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$26,00</span>
                               <p className="mb-0 font-size-14">Gin, limão, xarope de açucar e Angustura</p>
                            </div>
                         </div>
@@ -1084,7 +1084,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">The Bramble</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$26,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$26,00</span>
                               <p className="mb-0 font-size-14">Gin, limão, xarope de açucar e Chambord</p>
                            </div>
                         </div>
@@ -1093,7 +1093,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Old Fashion</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$26,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$26,00</span>
                               <p className="mb-0 font-size-14">Jack Daniels, Angustura, açucar e água com gás</p>
                            </div>
                         </div>
@@ -1104,7 +1104,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Gin Tônica</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$26,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$26,00</span>
                               <p className="mb-0 font-size-14">Gin e tônica</p>
                            </div>
                         </div>
@@ -1113,7 +1113,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Gin Mediterrâneo</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$26,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$26,00</span>
                               <p className="mb-0 font-size-14">Gin, limão e tônica</p>
                            </div>
                         </div>
@@ -1122,7 +1122,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Gin Pomelo Rose</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$26,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$26,00</span>
                               <p className="mb-0 font-size-14">Gin, chá de hibisco e tônica</p>
                            </div>
                         </div>
@@ -1131,7 +1131,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Gin Tangibre</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$26,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$26,00</span>
                               <p className="mb-0 font-size-14">Gin, xarope de gengibre, tangerina e tônica</p>
                            </div>
                         </div>
@@ -1140,7 +1140,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Gin Capim Santo</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$26,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$26,00</span>
                               <p className="mb-0 font-size-14">Gin, xarope de capim e tônica</p>
                            </div>
                         </div>
@@ -1149,7 +1149,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Gin Strawberry</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$26,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$26,00</span>
                               <p className="mb-0 font-size-14">Gin, purê de morango, xarope de morango e tônica</p>
                            </div>
                         </div>
@@ -1158,7 +1158,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
                                  className="bg-white">Gin Pitaya</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$26,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$26,00</span>
                               <p className="mb-0 font-size-14">Gin, Curaçau Blue, xarope de pitaya, xarope de lichia e tônica</p>
                            </div>
                         </div>
@@ -1168,7 +1168,7 @@ export default function Cardapio() {
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Sangria Tinta</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$44,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$44,00</span>
                               <p className="mb-0 font-size-14">Vinho tinto, Cointreau, Conhaque e frutas</p>
                            </div>
                         </div>
@@ -1176,7 +1176,7 @@ export default function Cardapio() {
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Clericot</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$99,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$99,00</span>
                               <p className="mb-0 font-size-14">Prosseco, água com gás, Cointreau e frutas</p>
                            </div>
                         </div>
@@ -1187,7 +1187,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Budweiser
                               330ml</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1195,7 +1195,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Becks
                               330ml</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1203,7 +1203,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Chopp Brahma
                               600ml</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1211,7 +1211,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Chopp Colorado
                               Appia 300ml</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1219,7 +1219,7 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Brahma 0,0% -
                               Sem Álcool</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
                            </div>
                         </div>
 
@@ -1228,245 +1228,245 @@ export default function Cardapio() {
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Smirnoff</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Sagatiba</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Red Label</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Black Label</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Double Black</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Blue Label</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Chivas</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Jack Daniels Nº7</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Ballantines</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Jack Daniels Apple</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Gentleman Jack</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Single Barrel</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Woodford Reserve</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">José Cuervo</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">1800</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Baileys</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Limoncello</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Licor Café Sheridans</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Bombay</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Tanqueray</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Hendricks</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Bull Dog</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Monkey 47</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Ketel One</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Ciroc</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Absolute</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Grey Goose</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">London Nº1</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Salinas</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Jack Daniels Honey</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Jack Daniels Fire</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">El Jimador</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Campari</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Boazinha</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
                            <div className="media-body position-relative">
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Espírito de Minas</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$15,00</span>
+                              <span className="menu-price price-none  mb-0 h6">R$15,00</span>
                            </div>
                         </div>
                      </div>
@@ -1495,10 +1495,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Cava Don Roman
                               Brut</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Espanha</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Macabeo, Parellada e Xarel.lo</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Marqués de Tomares</b></p>
+                              <span className="menu-price price-none mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Espanha</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Macabeo, Parellada e Xarel.lo</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Marqués de Tomares</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1506,10 +1506,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Villa
                               Fabrizia</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Itália</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Trebbiano e Chardonnay</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Villa Fabrizia</b></p>
+                              <span className="menu-price price-none mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Itália</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Trebbiano e Chardonnay</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Villa Fabrizia</b></p>
                            </div>
                         </div>
                         <h2 className="h3 font-alt mb-6 mt-6 text-center">Branco</h2>
@@ -1518,11 +1518,11 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Bodega Vieja
                               Sauvignon Blanc-Semillon</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Chile</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>50% Sauvignon Blanc e 50% Semillon</b>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Chile</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>50% Sauvignon Blanc e 50% Semillon</b>
                               </p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Bodega Vieja</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Bodega Vieja</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1530,10 +1530,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Antares
                               Sauvignon Blanc</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Chile</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Sauvignon Blanc</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Antares</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Chile</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Sauvignon Blanc</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Antares</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1541,10 +1541,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Santa Carolina
                               Estrelas Reserva Sauvignon Blanc</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Chile </b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Sauvignon Blanc </b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Santa Carolina </b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Chile </b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Sauvignon Blanc </b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Santa Carolina </b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1552,10 +1552,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Céfiro Reserva
                               Chardonnay</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Chile</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Chardonnay</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Viña Casablanca </b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Chile</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Chardonnay</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Viña Casablanca </b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1563,10 +1563,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Alfredo Roca
                               Chardonnay </span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Argentina </b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Chardonnay </b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Alfredo Roca </b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Argentina </b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Chardonnay </b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Alfredo Roca </b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1574,10 +1574,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Nieto
                               Senetiner Fran Chardonnay </span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Argentina </b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Chardonnay </b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Bodegas Nieto Senetiner </b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Argentina </b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Chardonnay </b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Bodegas Nieto Senetiner </b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1585,10 +1585,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Nederburg 1791
                               Sauvignon Blanc</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>África do Sul </b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Sauvignon Blanc </b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Nederburg </b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>África do Sul </b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Sauvignon Blanc </b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Nederburg </b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1596,11 +1596,11 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">99 Rosas
                               Chardonnay-Viognier </span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Espanha </b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>70% Chardonnay e 30% Viognier Orgânico e
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Espanha </b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>70% Chardonnay e 30% Viognier Orgânico e
                               Ecológico </b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Domínio de Punctum </b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Domínio de Punctum </b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1608,11 +1608,11 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Heritage Blanc
                            </span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>França </b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Colombard, Ugni Blanc e Folle Blanche
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>França </b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Colombard, Ugni Blanc e Folle Blanche
                            </b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Patriarche </b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Patriarche </b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1620,10 +1620,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Chateau Reynon
                               Sauvignon Blanc </span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>França </b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Sauvignon Blanc </b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Denis Dubordieu Domanies </b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>França </b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Sauvignon Blanc </b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Denis Dubordieu Domanies </b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1631,10 +1631,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Frascati
                            </span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Itália </b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>40% Malvasia di Candia, 30% </b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Villa Fabrizia </b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Itália </b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>40% Malvasia di Candia, 30% </b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Villa Fabrizia </b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1642,11 +1642,11 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Terras del Rei
                            </span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Portugal </b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Antão Vaz, Síria, Rabo de Ovelha e Perrum
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Portugal </b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Antão Vaz, Síria, Rabo de Ovelha e Perrum
                            </b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Carmim </b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Carmim </b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1654,10 +1654,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Regia
                               Colheita</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Portugal </b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Antão Vaz e Arinto</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Carmim </b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Portugal </b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Antão Vaz e Arinto</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Carmim </b></p>
                            </div>
                         </div>
                         <h2 className="h3 font-alt mb-6 mt-6 text-center">Rosé</h2>
@@ -1666,10 +1666,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">99
                               Rosas</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Espanha</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>50% Garnacha e 50% Bobal Jovem</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Domínio de Punctum</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Espanha</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>50% Garnacha e 50% Bobal Jovem</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Domínio de Punctum</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1677,10 +1677,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Alfredo
                               Roca</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Argentina</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Merlot</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Alfredo Roca</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Argentina</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Merlot</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Alfredo Roca</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1688,10 +1688,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Céfiro
                               Reserva</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Chile</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Pinot Noir</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Viña Casablanca</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Chile</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Pinot Noir</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Viña Casablanca</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1699,11 +1699,11 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Jas Des Vignes
                               Provence Rosé IGP</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>França</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>60% Grenache, 20% Syrah, 10% Cinsault e
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>França</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>60% Grenache, 20% Syrah, 10% Cinsault e
                               10% Muscat</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Ravoire & Fils</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Ravoire & Fils</b></p>
                            </div>
                         </div>
                         <h2 className="h3 font-alt mb-6 mt-6 text-center">Tinto</h2>
@@ -1712,11 +1712,11 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Bodega Vieja
                               Cabernet Sauvignon-Merlot</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Chile</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>75% Cabernet Sauvignon e 25% Merlot</b>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Chile</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>75% Cabernet Sauvignon e 25% Merlot</b>
                               </p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Bodega Vieja</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Bodega Vieja</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1724,10 +1724,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Antares
                               Carmenere</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Chile</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Carmenère</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Antares</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Chile</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Carmenère</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Antares</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1735,10 +1735,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Céfiro
                               Carmenere</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Chile</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Carmenère</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Viña Casablanca</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Chile</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Carmenère</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Viña Casablanca</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1746,10 +1746,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Alfredo Roca
                               Cabernet Sauvignon</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Argentina</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Cabernet Sauvignon</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Alfredo Roca</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Argentina</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Cabernet Sauvignon</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Alfredo Roca</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1757,10 +1757,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Alfredo Roca
                               Pinot Noir</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Argentina</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Pinot Noir</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Alfredo Roca</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Argentina</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Pinot Noir</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Alfredo Roca</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1768,10 +1768,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Nieto
                               Senetiner Fran Malbec</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Argentina</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Malbec</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Bodegas Nieto Senetiner</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Argentina</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Malbec</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Bodegas Nieto Senetiner</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1779,10 +1779,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Nieto
                               Senetiner Estate Bottled Malbec</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Luján de Cuyo, Mendoza</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>100% Malbec</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Bodegas Nieto Senetiner</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Luján de Cuyo, Mendoza</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>100% Malbec</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Bodegas Nieto Senetiner</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1790,10 +1790,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Cadus
                               Tupungato Cabernet Sauvignon</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Argentina</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Cabernet Sauvignon</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Cadus Wines</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Argentina</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Cabernet Sauvignon</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Cadus Wines</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1801,10 +1801,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Nederburg 1791
                               Shiraz</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>África do Sul</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Shiraz</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Nederburg</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>África do Sul</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Shiraz</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Nederburg</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1812,10 +1812,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Jacob’s Creek
                               Cabernet Sauvignon-Shiraz</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Austrália</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>60% Shiraz 40% Cabernet Sauvignon</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Jacob's Creek</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Austrália</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>60% Shiraz 40% Cabernet Sauvignon</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Jacob's Creek</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1823,10 +1823,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Pata Negra Oro
                               tempranillo</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Espanha</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Tempranillo</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Garcia Carrion/Pata Negra</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Espanha</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Tempranillo</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Garcia Carrion/Pata Negra</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1834,11 +1834,11 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">99 Rosas
                               Tempranillo - Cabernet Sauvignon</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Espanha</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>70% Tempranillo e 30% Cabernet
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Espanha</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>70% Tempranillo e 30% Cabernet
                               Sauvignon</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Domínio de Punctum</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Domínio de Punctum</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1846,10 +1846,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Marqués de
                               Tomares Excellence</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Espanha</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>90% Tempranillo e 10% Graciano</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Marqués de Tomares</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Espanha</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>90% Tempranillo e 10% Graciano</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Marqués de Tomares</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1857,10 +1857,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Heritage
                               Rouge</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>França</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Carignan, Grenache e Syrah.</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Patriarche</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>França</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Carignan, Grenache e Syrah.</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Patriarche</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1868,11 +1868,11 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Secret de
                               Campagne Vin de Pays</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>França</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>60% Grenache, 30% Vieux Carignan e 10%
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>França</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>60% Grenache, 30% Vieux Carignan e 10%
                               Cinsault</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Cave de Cairanne</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Cave de Cairanne</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1880,10 +1880,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Abel Pinchard
                               Pinot Noir</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>França</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>100% Pinot Noir</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Abel Pinchard</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>França</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>100% Pinot Noir</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Abel Pinchard</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1891,11 +1891,11 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Corbelli
                               Chianti DOCG</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Itália</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>85% Sangiovese, 10% Canaiolo e 5%
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Itália</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>85% Sangiovese, 10% Canaiolo e 5%
                               Ciliegiolo</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Castellani</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Castellani</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1903,10 +1903,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Forte Ambrone
                               Rosso </span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Itália</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Blend de Cepas Italianas</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Castellani</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Itália</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Blend de Cepas Italianas</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Castellani</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1914,10 +1914,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Brunello di
                               Montalcino Vila Frabrizia</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Itália</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Sangiovese Grosso</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Cantina Villa Fabrizia</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Itália</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Sangiovese Grosso</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Cantina Villa Fabrizia</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1925,10 +1925,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Terras d'el
                               Rei</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Portugal</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Castelão, Aragonês e Trincadeira.</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Carmim</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Portugal</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Castelão, Aragonês e Trincadeira.</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Carmim</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1936,10 +1936,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Loios</span>
                               </h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Portugal</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Aragonês, Trincadeira e Castelão</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>João Portugal Ramos</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Portugal</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Aragonês, Trincadeira e Castelão</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>João Portugal Ramos</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1947,11 +1947,11 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Regia
                               Colheita</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Portugal</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Aragonês, Trincadeira e Alicante
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Portugal</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Aragonês, Trincadeira e Alicante
                               Bouschet</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Carmim</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Carmim</b></p>
                            </div>
                         </div>
                         <div className="media align-items-center mb-4 ">
@@ -1959,10 +1959,10 @@ export default function Cardapio() {
                               <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Montes
                               Toscanini Reserva Familiar Tannat</span></h6>
                               <span className="dots-price"></span>
-                              <span className="menu-price  mb-0 h6">R$29,00</span>
-                              <p className="mb-0 font-size-14 description-width">País: <b>Uruguai</b></p>
-                              <p className="mb-0 font-size-14 description-width">Uva: <b>Tannat</b></p>
-                              <p className="mb-0 font-size-14 description-width">Produtor: <b>Montes Toscanini</b></p>
+                              <span className="menu-price price-none  mb-0 h6">R$29,00</span>
+                              <p className="mb-0 font-size-14 description-width-qr ">País: <b>Uruguai</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Uva: <b>Tannat</b></p>
+                              <p className="mb-0 font-size-14 description-width-qr ">Produtor: <b>Montes Toscanini</b></p>
                            </div>
                         </div>
                      </div>

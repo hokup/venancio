@@ -1,10 +1,10 @@
-@font-face {
+/* @font-face {
   font-family: 'blacker_displaybold';
   src: url('../webfonts/blacker-display-bold-trial.woff2') format('woff2'),
        url('../webfonts/blacker-display-bold-trial.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-}
+} */
 
 :root {
   --blue: #007bff;
@@ -373,18 +373,18 @@ h1, h2, h3, h4, h5, h6,
 h1, .h1 {
   font-size: 2.5rem;
   line-height: 1.3;
-  /*font-family: 'Lustria', serif;*/
+  font-family: 'Lustria', serif;
 }
 
 h2, .h2 {
   font-size: 2rem;
-  /*line-height: 1.3;*/
-  /*font-family: 'Lustria', serif;*/
+  line-height: 1.3;
+  font-family: 'Lustria', serif;
 }
 
 h3, .h3 {
   font-size: 1.75rem;
-  /*font-family: 'Lustria', serif;*/
+  font-family: 'Lustria', serif;
 }
 
 h4, .h4 {
@@ -427,7 +427,7 @@ h6, .h6 {
 .display-4 {
   font-size: 3.5rem;
   line-height: 1.2;
-  font-family: 'blacker_displaybold' !important;
+  font-family: 'Lustria', serif;
 }
 
 hr {

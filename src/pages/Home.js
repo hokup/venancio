@@ -173,13 +173,13 @@ function App() {
                                 <p>The time has come to bring those ideas and plans to life. This is where we really begin to
                                 visualize your napkin sketches and make them into beautiful pixels.Now that your brand is all
                      dressed up and ready to party.</p>
-                                <div className="media align-items-center">
+                                {/* <div className="media align-items-center">
                                     <img className="avatar-md rounded-circle mr-3" src={avatar} alt="" />
                                     <div className="media-body">
                                         <h4 className="h6  mb-0">Bernardo Braga</h4>
                                         <p className="mb-0">Master Chef</p>
                                     </div>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="col-lg-6">
                                 <div className="position-relative">
@@ -289,44 +289,44 @@ function App() {
                             <div className="col-md-8 col-lg-7 ">
                                 <div className="tab-content">
                                     <div className="tab-pane fade active show" id="tab-one" role="tabpanel">
-                                        <div className="media align-items-center mb-4 ">
-                                            <div className="media-body position-relative">
-                                                <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Sugestão 1</span></h6>
-                                                <span className="dots-price"></span>
-                                                <span className="menu-price mb-0 h6">R$29,00</span>
+                                        <div className="media align-items-center mb-6">
+                                            <div className="media-body position-relative text-center">
+                                                <h6 className="mb-0 position-relative z-index-2 font-size-15 pr-0"><span className="bg-white">Sugestão 1</span></h6>
+                                                {/* <span className="dots-price "></span> */}
+                                                <span className="menu-price price-none mb-0 h6">R$29,00</span>
                                                 <p className="mb-0 font-size-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                             </div>
                                         </div>
-                                        <div className="media align-items-center mb-4 ">
-                                            <div className="media-body position-relative">
-                                                <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span
+                                        <div className="media align-items-center mb-6">
+                                            <div className="media-body position-relative text-center">
+                                                <h6 className="mb-0 position-relative  z-index-2 font-size-15 pr-0"><span
                                                     className="bg-white">Sugestão 2</span></h6>
-                                                <span className="dots-price"></span>
-                                                <span className="menu-price  mb-0 h6">R$29,00</span>
+                                                {/* <span className="dots-price "></span> */}
+                                                <span className="menu-price price-none  mb-0 h6">R$29,00</span>
                                                 <p className="mb-0 font-size-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                             </div>
                                         </div>
-                                        <div className="media align-items-center mb-4 ">
-                                            <div className="media-body position-relative">
-                                                <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Sugestão 3</span></h6>
-                                                <span className="dots-price"></span>
-                                                <span className="menu-price mb-0 h6">R$29,00</span>
+                                        <div className="media align-items-center mb-6">
+                                            <div className="media-body position-relative text-center">
+                                                <h6 className="mb-0 position-relative z-index-2 font-size-15 pr-0"><span className="bg-white">Sugestão 3</span></h6>
+                                                {/* <span className="dots-price "></span> */}
+                                                <span className="menu-price price-none mb-0 h6">R$29,00</span>
                                                 <p className="mb-0 font-size-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                             </div>
                                         </div>
-                                        <div className="media align-items-center mb-4 ">
-                                            <div className="media-body position-relative">
-                                                <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Sugestão 4</span></h6>
-                                                <span className="dots-price"></span>
-                                                <span className="menu-price mb-0 h6">R$29,00</span>
+                                        <div className="media align-items-center mb-6">
+                                            <div className="media-body position-relative text-center">
+                                                <h6 className="mb-0 position-relative z-index-2 font-size-15 pr-0"><span className="bg-white">Sugestão 4</span></h6>
+                                                {/* <span className="dots-price "></span> */}
+                                                <span className="menu-price price-none mb-0 h6">R$29,00</span>
                                                 <p className="mb-0 font-size-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                             </div>
                                         </div>
-                                        <div className="media align-items-center ">
-                                            <div className="media-body position-relative">
-                                                <h6 className="mb-0 position-relative  z-index-2 font-size-15"><span className="bg-white">Sugestão 5</span></h6>
-                                                <span className="dots-price"></span>
-                                                <span className="menu-price  mb-0 h6">R$29,00</span>
+                                        <div className="media align-items-center">
+                                            <div className="media-body position-relative text-center">
+                                                <h6 className="mb-0 position-relative z-index-2 font-size-15 pr-0"><span className="bg-white">Sugestão 5</span></h6>
+                                                {/* <span className="dots-price "></span> */}
+                                                <span className="menu-price price-none  mb-0 h6">R$29,00</span>
                                                 <p className="mb-0 font-size-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                             </div>
                                         </div>
@@ -586,7 +586,7 @@ function App() {
                                             <span className="opening-hours-day">Segunda</span>
                                         </span>
                                         <span className="opening-hours-line"></span>
-                                        <span className="opening-hours-time">09:00 - 18:00</span>
+                                        <span className="opening-hours-time">09:00 - 21:00</span>
                                     </span>
                                 </div>
                                 <div className="opening-hours-container font-size-14 ">
@@ -595,7 +595,7 @@ function App() {
                                             <span className="opening-hours-day">Terça</span>
                                         </span>
                                         <span className="opening-hours-line"></span>
-                                        <span className="opening-hours-time">09:00 - 18:00</span>
+                                        <span className="opening-hours-time">09:00 - 21:00</span>
                                     </span>
                                 </div>
                                 <div className="opening-hours-container font-size-14 ">
@@ -604,7 +604,7 @@ function App() {
                                             <span className="opening-hours-day">Quarta</span>
                                         </span>
                                         <span className="opening-hours-line"></span>
-                                        <span className="opening-hours-time">09:00 - 18:00</span>
+                                        <span className="opening-hours-time">09:00 - 21:00</span>
                                     </span>
                                 </div>
                                 <div className="opening-hours-container font-size-14 ">
@@ -613,7 +613,7 @@ function App() {
                                             <span className="opening-hours-day">Quinta</span>
                                         </span>
                                         <span className="opening-hours-line"></span>
-                                        <span className="opening-hours-time">09:00 - 18:00</span>
+                                        <span className="opening-hours-time">09:00 - 21:00</span>
                                     </span>
                                 </div>
                                 <div className="opening-hours-container font-size-14 ">
@@ -622,7 +622,7 @@ function App() {
                                             <span className="opening-hours-day">Sexta</span>
                                         </span>
                                         <span className="opening-hours-line"></span>
-                                        <span className="opening-hours-time">09:00 - 18:00</span>
+                                        <span className="opening-hours-time">09:00 - 21:00</span>
                                     </span>
                                 </div>
                                 <div className="opening-hours-container font-size-14 ">
@@ -631,7 +631,7 @@ function App() {
                                             <span className="opening-hours-day">Sábado</span>
                                         </span>
                                         <span className="opening-hours-line"></span>
-                                        <span className="opening-hours-time">09:00 - 01:00</span>
+                                        <span className="opening-hours-time">09:00 - 21:00</span>
                                     </span>
                                 </div>
                                 <div className="opening-hours-container font-size-14 ">
@@ -640,7 +640,7 @@ function App() {
                                             <span className="opening-hours-day">Domingo</span>
                                         </span>
                                         <span className="opening-hours-line"></span>
-                                        <span className="opening-hours-time">09:00 - 18:00</span>
+                                        <span className="opening-hours-time">09:00 - 21:00</span>
                                     </span>
                                 </div>
                             </div>
