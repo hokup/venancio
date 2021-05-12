@@ -21,13 +21,21 @@ Created by : mutationthemes
 
 /*Preloader*/
 
-/* @font-face {
+@font-face {
     font-family: "blacker_displaybold";
     src: url("../webfonts/blacker-display-bold-trial.woff2") format("woff2"),
         url("../webfonts/blacker-display-bold-trial.woff") format("woff");
     font-weight: normal;
     font-style: normal;
-} */
+}
+
+@font-face {
+    font-family: 'blacker_textbold';
+    src: url('../webfonts/blacker-text-bold-trial-webfont.woff2') format('woff2'),
+         url('../webfonts/blacker-text-bold-trial-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html{
     scroll-behavior: smooth !important;
@@ -852,8 +860,8 @@ div[class*="col-"].spacer-double-xxs,
     letter-spacing: 0.1rem;
 }
 .font-alt {
-    /* font-family: "blacker_displaybold"; */
-    font-family: 'Lustria', serif;
+    font-family: "blacker_textbold";
+    /* font-family: 'Lustria', serif; */
 }
 .divider-border {
     width: 90px;

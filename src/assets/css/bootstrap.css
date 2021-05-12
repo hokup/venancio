@@ -1,10 +1,18 @@
-/* @font-face {
+@font-face {
   font-family: 'blacker_displaybold';
   src: url('../webfonts/blacker-display-bold-trial.woff2') format('woff2'),
        url('../webfonts/blacker-display-bold-trial.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-} */
+}
+
+@font-face {
+  font-family: 'blacker_textbold';
+  src: url('../webfonts/blacker-text-bold-trial-webfont.woff2') format('woff2'),
+       url('../webfonts/blacker-text-bold-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
 :root {
   --blue: #007bff;

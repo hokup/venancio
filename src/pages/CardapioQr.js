@@ -119,7 +119,7 @@ export default function Cardapio() {
             </header>
             <section className="spacer-xlg-alt jarallax gradient-overlay gradient-overlay-dark" id="petiscos">
                {/* <ParallaxImage imgSrc={img1} /> */}
-               <Parallax y={[-20, -50]} tagOuter="figure" className="jarallax-img">
+               <Parallax y={[-10, -40]} tagOuter="figure" className="jarallax-img">
                   <img loading="lazy" className="parallax-img" src={img1} />
                </Parallax>
                <div className="container">

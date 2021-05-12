@@ -258,8 +258,7 @@ function App() {
                                         <div className="reservation-card-inner p-sm-6">
                                             <img src={dishLogo} alt="" className="max-width-lg mb-3" />
                                             <h1 className="h2 font-alt">Venha nos visitar</h1>
-                                            <p className="lead">Segundas as sextas, estamos abertos das 09:00 ~ 18:00.</p>
-                                            <p className="lead">Sábado das 09:00 ~ 01:00.</p>
+                                            <p className="lead">De terça a domingo, estamos abertos das 09:00 ~ 21:00.</p>
                                             <br />
                                             <br />
                                             <p className="lead">Rua Serra De Japi, 789</p>
@@ -295,9 +294,7 @@ function App() {
                                         <div class="col-12 col-md-6 d-flex">
                                             <div class="special-inner position-relative w-100">
                                                 <h3 class="h5 font-weight-700 letter-spacing-small">Polvo</h3>
-                                                <p>
-                                                    Polvo com Molho de Ervas, Batata Assada, Tomates Confit e Tostados – Servido com Aioli de Páprica Picante
-                                 </p>
+                                                <p style={{fontSize:'13px'}}>Polvo com Molho de Ervas, Batata Assada, Tomates Confit e Tostados</p>
                                                 <a href="/cardapio" class="font-size-11-5 text-uppercase font-weight-700 letter-spacing-medium scroll">ver cardápio</a>
                                             </div>
                                         </div>
@@ -313,7 +310,7 @@ function App() {
                                         <div class="col-12 col-md-6 d-flex">
                                             <div class="special-inner position-relative w-100">
                                                 <h3 class="h5  font-weight-700 letter-spacing-small">Panna Cotta</h3>
-                                                <p>Creme e Iogurte com Frutas Vermelhas e Crocante de Laranja</p>
+                                                <p style={{fontSize:'13px'}}>Creme e Iogurte com Frutas Vermelhas e Crocante de Laranja</p>
                                                 <a href="/cardapio" class="font-size-11-5 text-uppercase font-weight-700 letter-spacing-medium scroll">ver cardápio</a>
                                             </div>
                                         </div>
@@ -330,8 +327,8 @@ function App() {
                                     <div class="row no-gutters align-items-center d-flex">
                                         <div class="col-12 col-md-6 d-flex">
                                             <div class="special-inner position-relative w-100">
-                                                <h3 class="h5  font-weight-700 letter-spacing-small">Camarão Empanado</h3>
-                                                <p>Porção de Camarão empanado com Coco e servido com Maionese de Gremolata</p>
+                                                <h3 class="h5  font-weight-700 letter-spacing-small">Camarão</h3>
+                                                <p style={{fontSize:'13px'}}>Porção de Camarão empanado com Coco e servido com Maionese de Gremolata</p>
                                                 <a href="/cardapio" class="font-size-11-5 text-uppercase font-weight-700 letter-spacing-medium scroll">ver cardápio</a>
                                             </div>
                                         </div>
@@ -347,7 +344,7 @@ function App() {
                                         <div class="col-12 col-md-6">
                                             <div class="special-inner  position-relative w-100">
                                                 <h3 class="h5 font-weight-700 letter-spacing-small">Negroni</h3>
-                                                <p>Gin, Martini Rosso, Campari</p>
+                                                <p style={{fontSize:'13px'}}>Gin, Martini Rosso, Campari</p>
                                                 <a href="/cardapio" class="font-size-11-5 text-uppercase font-weight-700 letter-spacing-medium scroll">ver cardápio</a>
                                             </div>
                                         </div>
@@ -589,7 +586,7 @@ function App() {
                                 <a href='https://wa.me/551122251844/?text=Ol%C3%A1,%20gostaria%20de%20reservar%20uma%20mesa%20hoje%20no%20Venancio!' className='normal-link' target='_blank'>
                                     <div className="text-center py-5">
                                         <img className="max-width-sm mb-3" src={phoneSvg} alt="" />
-                                        <h3 className="h6 mb-0">Whatsapp</h3>
+                                        <h3 className="h6 mb-0">WhatsApp</h3>
                                         <p className="mb-0">+55 (11) 2225-1844</p>
                                     </div>
                                 </a>
