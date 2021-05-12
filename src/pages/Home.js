@@ -19,6 +19,7 @@ import adressSvg from '../assets/svg/address.svg'
 import mailSvg from '../assets/svg/email.svg'
 import phoneSvg from '../assets/svg/phone.svg'
 import dishLogo from '../assets/svg/serving-dish.svg'
+import hex from '../assets/svg/hexagon.svg'
 
 // Images jpg
 import img1 from '../assets/img/1.jpg'
@@ -40,8 +41,12 @@ import off2 from '../assets/img/offset/2.png'
 import off3 from '../assets/img/offset/3.png'
 import off4 from '../assets/img/offset/4.png'
 
-// Avatar
-import avatar from '../assets/img/avatar/1.jpg'
+// Sugestão
+import sug1 from '../assets/img/sugestao/1.png'
+import sug2 from '../assets/img/sugestao/2.jpg'
+import sug3 from '../assets/img/sugestao/3.png'
+import sug4 from '../assets/img/sugestao/4.jpg'
+
 
 //Component
 import Contato from './contato/Contato';
@@ -170,9 +175,7 @@ function App() {
                         <div className="row justify-content-between align-items-center">
                             <div className="col-lg-5 mb-6 mb-lg-0">
                                 <h2 className="h3 font-alt mb-3">Comida mediterrânea e <br />drinks de qualidade</h2>
-                                <p>The time has come to bring those ideas and plans to life. This is where we really begin to
-                                visualize your napkin sketches and make them into beautiful pixels.Now that your brand is all
-                     dressed up and ready to party.</p>
+                                <p>Localizado no coração do bairro Tatuapé, o Restaurante Venancio traz o conceito e da gastronomia Mediterrânea com o afeto da comida caseira. Tudo é feito diretamente aqui na casa, incluindo pães, massas e bebidas.</p>
                                 {/* <div className="media align-items-center">
                                     <img className="avatar-md rounded-circle mr-3" src={avatar} alt="" />
                                     <div className="media-body">
@@ -284,7 +287,81 @@ function App() {
                             </div>
                         </div>
                     </div>
-                    <div className="container">
+                    <div class="container">
+                        <div class="row no-gutters text-center shadow-lg">
+                            <div class="col-12 col-lg-6 ">
+                                <div class="special position-relative w-100 bg-white">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col-12 col-md-6 d-flex">
+                                            <div class="special-inner position-relative w-100">
+                                                <h3 class="h5 font-weight-700 letter-spacing-small">Polvo</h3>
+                                                <p>
+                                                    Polvo com Molho de Ervas, Batata Assada, Tomates Confit e Tostados – Servido com Aioli de Páprica Picante
+                                 </p>
+                                                <a href="/cardapio" class="font-size-11-5 text-uppercase font-weight-700 letter-spacing-medium scroll">ver cardápio</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 align-self-md-stretch d-flex">
+                                            <figure class="special-media">
+                                                <img class="" src={sug1} alt="" />
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="special position-relative w-100 bg-white">
+                                    <div class="row flex-md-row-reverse no-gutters align-items-center">
+                                        <div class="col-12 col-md-6 d-flex">
+                                            <div class="special-inner position-relative w-100">
+                                                <h3 class="h5  font-weight-700 letter-spacing-small">Panna Cotta</h3>
+                                                <p>Creme e Iogurte com Frutas Vermelhas e Crocante de Laranja</p>
+                                                <a href="/cardapio" class="font-size-11-5 text-uppercase font-weight-700 letter-spacing-medium scroll">ver cardápio</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 align-self-md-stretch d-flex">
+                                            <figure class="special-media">
+                                                <img class="" src={sug2} alt="" />
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-6 ">
+                                <div class="special position-relative w-100 bg-white">
+                                    <div class="row no-gutters align-items-center d-flex">
+                                        <div class="col-12 col-md-6 d-flex">
+                                            <div class="special-inner position-relative w-100">
+                                                <h3 class="h5  font-weight-700 letter-spacing-small">Camarão Empanado</h3>
+                                                <p>Porção de Camarão empanado com Coco e servido com Maionese de Gremolata</p>
+                                                <a href="/cardapio" class="font-size-11-5 text-uppercase font-weight-700 letter-spacing-medium scroll">ver cardápio</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 align-self-md-stretch d-flex">
+                                            <figure class="special-media">
+                                                <img class="" src={sug3} alt="" />
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="special position-relative w-100 bg-white">
+                                    <div class="row flex-md-row-reverse no-gutters align-items-center d-flex">
+                                        <div class="col-12 col-md-6">
+                                            <div class="special-inner  position-relative w-100">
+                                                <h3 class="h5 font-weight-700 letter-spacing-small">Negroni</h3>
+                                                <p>Gin, Martini Rosso, Campari</p>
+                                                <a href="/cardapio" class="font-size-11-5 text-uppercase font-weight-700 letter-spacing-medium scroll">ver cardápio</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-12 col-md-6 align-self-md-stretch d-flex">
+                                            <figure class="special-media">
+                                                <img class="" src={sug4} alt="" />
+                                            </figure>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {/* <div className="container">
                         <div className="row justify-content-around align-items-center">
                             <div className="col-md-8 col-lg-7 ">
                                 <div className="tab-content">
@@ -292,7 +369,6 @@ function App() {
                                         <div className="media align-items-center mb-6">
                                             <div className="media-body position-relative text-center">
                                                 <h6 className="mb-0 position-relative z-index-2 font-size-15 pr-0"><span className="bg-white">Sugestão 1</span></h6>
-                                                {/* <span className="dots-price "></span> */}
                                                 <span className="menu-price price-none mb-0 h6">R$29,00</span>
                                                 <p className="mb-0 font-size-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                             </div>
@@ -301,7 +377,6 @@ function App() {
                                             <div className="media-body position-relative text-center">
                                                 <h6 className="mb-0 position-relative  z-index-2 font-size-15 pr-0"><span
                                                     className="bg-white">Sugestão 2</span></h6>
-                                                {/* <span className="dots-price "></span> */}
                                                 <span className="menu-price price-none  mb-0 h6">R$29,00</span>
                                                 <p className="mb-0 font-size-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                             </div>
@@ -309,7 +384,6 @@ function App() {
                                         <div className="media align-items-center mb-6">
                                             <div className="media-body position-relative text-center">
                                                 <h6 className="mb-0 position-relative z-index-2 font-size-15 pr-0"><span className="bg-white">Sugestão 3</span></h6>
-                                                {/* <span className="dots-price "></span> */}
                                                 <span className="menu-price price-none mb-0 h6">R$29,00</span>
                                                 <p className="mb-0 font-size-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                             </div>
@@ -317,7 +391,6 @@ function App() {
                                         <div className="media align-items-center mb-6">
                                             <div className="media-body position-relative text-center">
                                                 <h6 className="mb-0 position-relative z-index-2 font-size-15 pr-0"><span className="bg-white">Sugestão 4</span></h6>
-                                                {/* <span className="dots-price "></span> */}
                                                 <span className="menu-price price-none mb-0 h6">R$29,00</span>
                                                 <p className="mb-0 font-size-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                             </div>
@@ -325,13 +398,12 @@ function App() {
                                         <div className="media align-items-center">
                                             <div className="media-body position-relative text-center">
                                                 <h6 className="mb-0 position-relative z-index-2 font-size-15 pr-0"><span className="bg-white">Sugestão 5</span></h6>
-                                                {/* <span className="dots-price "></span> */}
                                                 <span className="menu-price price-none  mb-0 h6">R$29,00</span>
                                                 <p className="mb-0 font-size-14">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> 
                                 <div className="row justify-content-center text-center ">
                                     <div className="col-md-auto">
                                         <div className=" pt-5 mt-5">
@@ -341,7 +413,7 @@ function App() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div>*/}
                 </section>
                 <section id="gallery" className="bg-secondary spacer-double-lg">
                     <div className="container">
@@ -514,20 +586,20 @@ function App() {
                                 </a>
                             </div>
                             <div className="col-sm-6 col-lg-3 vertical-divider">
-                                <a href='tel:+551137470096' className='normal-link'>
+                                <a href='https://wa.me/551122251844/?text=Ol%C3%A1,%20gostaria%20de%20reservar%20uma%20mesa%20hoje%20no%20Venancio!' className='normal-link' target='_blank'>
                                     <div className="text-center py-5">
                                         <img className="max-width-sm mb-3" src={phoneSvg} alt="" />
-                                        <h3 className="h6 mb-0">Telefone</h3>
-                                        <p className="mb-0">+55 (11) 3747-0096</p>
+                                        <h3 className="h6 mb-0">Whatsapp</h3>
+                                        <p className="mb-0">+55 (11) 2225-1844</p>
                                     </div>
                                 </a>
                             </div>
                             <div className="col-sm-6 col-lg-3 vertical-divider">
-                                <a href='mailto:contato@venancio.com.br' className='normal-link'>
+                                <a href='mailto:restaurantevencioebar@gmail.com' className='normal-link'>
                                     <div className="text-center py-5">
                                         <img className="max-width-sm mb-3" src={mailSvg} alt="" />
                                         <h3 className="h6 mb-0">Email</h3>
-                                        <p className="mb-0">contato@venancio.com.br</p>
+                                        <p className="mb-0">restaurantevencioebar@gmail.com</p>
                                     </div>
                                 </a>
                             </div>
@@ -551,7 +623,7 @@ function App() {
                     <div className="container space-top-2 space-bottom-1">
                         <div className="row justify-content-lg-start mb-5">
                             <div className="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-                                <a className="d-inline-block mb-3 footer-logo" href="index.html">
+                                <a className="d-inline-block mb-3 footer-logo" href="/">
                                     <img src={venancioLogo} style={{ width: '125px' }} alt="" />
                                 </a>
                                 <p className="font-size-14 ">© 2021 Venancio. Todos direitos <br /> reservados.</p>
@@ -570,23 +642,24 @@ function App() {
                                 <h3 className="h6 text-white mb-3  font-size-15">Endereço</h3>
                                 <address>
                                     <ul className="list-group list-group-flush list-group-borderless mb-0">
-                                        <li className="list-group-item"><a className='normal-link' href='tel:+551137470096'>+55 (11) 3747-0096</a></li>
+                                        <li className="list-group-item"><a className='normal-link' href='tel:+551122251844'>+55 (11) 2225-1844</a></li>
                                         <li className="list-group-item">
-                                            <a className='normal-link' href="mailto:contato@venancio.com.br">contato@venancio.com.br</a>
+                                            <a className='normal-link' href="mailto:restaurantevencioebar@gmail.com">restaurantevencioebar@gmail.com</a>
                                         </li>
                                         <li className="list-group-item"><a className='normal-link' href='https://goo.gl/maps/RYkPvyvUnSmJxdfi9' target='_blank'>Rua Serra De Japi, 789 <br /> Vila Gomes Cardim - 03.309-000</a></li>
                                     </ul>
                                 </address>
                             </div>
                             <div className=" col-lg-4 col-sm-6 mb-4">
-                                <h3 className="h6 text-white mb-3  font-size-15">Horário de atendimento</h3>
+                                <h3 className="h6 text-white font-size-15 mb-0">Horário de atendimento</h3>
+                                <span className="mb-3" style={{ fontSize: '10px' }}>horário em periodo de restrição*</span>
                                 <div className="opening-hours-container font-size-14 ">
                                     <span className="opening-hours-holder-inner">
                                         <span className="opening-hours-day-holder">
                                             <span className="opening-hours-day">Segunda</span>
                                         </span>
                                         <span className="opening-hours-line"></span>
-                                        <span className="opening-hours-time">09:00 - 21:00</span>
+                                        <span className="opening-hours-time">Fechado</span>
                                     </span>
                                 </div>
                                 <div className="opening-hours-container font-size-14 ">
@@ -645,11 +718,11 @@ function App() {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="container-fluid d-flex align-items-center justify-content-center" style={{ backgroundColor: '#131313', height: '82px' }}>
-                        <div className="col-12 text-sm-center flex-column justify-content-center align-items-center" >
-                            <img style={{ maxWidth: '15px' }} src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNTEyIDUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PGc+PHBhdGggZD0ibTQ4NS4yOTEgMTI5LjQwOC0yMjQtMTI4Yy0zLjI4NS0xLjg3Ny03LjI5Ni0xLjg3Ny0xMC41ODEgMGwtMjI0IDEyOGMtMy4zMjggMS44OTktNS4zNzYgNS40NC01LjM3NiA5LjI1OXYyMzQuNjY3YzAgMy44MTkgMi4wNDggNy4zNiA1LjM3NiA5LjI1OWwyMjQgMTI4YzEuNjQzLjkzOSAzLjQ1NiAxLjQwOCA1LjI5MSAxLjQwOHMzLjY0OC0uNDY5IDUuMjkxLTEuNDA4bDIyNC0xMjhjMy4zMjgtMS44OTkgNS4zNzYtNS40NCA1LjM3Ni05LjI1OXYtMjM0LjY2N2MtLjAwMS0zLjgxOS0yLjA0OS03LjM2LTUuMzc3LTkuMjU5eiIvPjwvZz48L2c+PGcvPjxnLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48Zy8+PC9zdmc+" />
-                            <p className="small text-secondary  mb-0">Desenvolvido por <a href="https://www.hokup.com.br/" target="_blank">hokup</a></p>
+                        <div class="row align-items-center">
+                            <div class="col-sm-12 text-center">
+                            <div class="hexagon"></div>
+                                <p class="small  text-secondary mb-3">Desenvolvido por  <a href='www.hokup.com.br' target='_blank' style={{textDecoration:'none'}}><img style={{maxWidth:'10px'}} src={hex} />   hokup</a></p>
+                            </div>
                         </div>
                     </div>
                 </footer>

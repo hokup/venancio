@@ -7,6 +7,7 @@ import { Helmet } from "react-helmet";
 import logoLight from '../assets/svg/logo-light.svg'
 import logoDark from '../assets/svg/logo-dark.svg'
 import venancioLogo from '../assets/svg/venancio-logo.svg'
+import hex from '../assets/svg/hexagon.svg'
 
 // Images jpg
 import img1 from '../assets/img/2.jpg'
@@ -118,7 +119,7 @@ export default function Cardapio() {
             </header>
             <section className="spacer-xlg-alt jarallax gradient-overlay gradient-overlay-dark" id="petiscos">
                {/* <ParallaxImage imgSrc={img1} /> */}
-               <Parallax y={[-30, -60]} tagOuter="figure" className="jarallax-img">
+               <Parallax y={[-20, -50]} tagOuter="figure" className="jarallax-img">
                   <img loading="lazy" className="parallax-img" src={img1} />
                </Parallax>
                <div className="container">
@@ -308,7 +309,7 @@ export default function Cardapio() {
             </section>
             <section className="spacer-xlg jarallax gradient-overlay gradient-overlay-dark" id="pratosprincipais">
                {/* <ParallaxImage imgSrc={img16} /> */}
-               <Parallax y={[-30, -60]} tagOuter="figure" className="jarallax-img">
+               <Parallax y={[-20, -50]} tagOuter="figure" className="jarallax-img">
                   <img loading="lazy" className="parallax-img" src={img16} />
                </Parallax>
                <div className="container">
@@ -1969,117 +1970,117 @@ export default function Cardapio() {
                   </div>
                </div>
             </section>
-
             <footer className="footer bg-dark spacer-one-top-md">
-               <svg className="footer-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100"
-                  preserveAspectRatio="none" width="100%" height="100">
-                  <path d="M0 100 C40 0 60 0 100 100 Z"></path>
-               </svg>
-               <div className="container space-top-2 space-bottom-1">
-                  <div className="row justify-content-lg-start mb-5">
-                     <div className="col-lg-4 col-sm-6 mb-5 mb-lg-0">
-                        <a className="d-inline-block mb-3 footer-logo" href="index.html">
-                           <img src={venancioLogo} style={{ width: '125px' }} alt="" />
-                        </a>
-                        <p className="font-size-14 ">© 2021 Venancio. Todos direitos <br /> reservados.</p>
-                        <div>
-                           <ul className="list-inline mb-0">
-                              <li className="list-inline-item mb-2 mb-lg-0 mr-1"><a className="social-icon" href="https://www.facebook.com/venanciorestaurantebar/" target='_blank'><span
-                                 className="fab fa-facebook-f"></span></a></li>
-                              {/* <li className="list-inline-item mr-1"><a className="social-icon " href="#"><span
+                    <svg className="footer-svg" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 100"
+                        preserveAspectRatio="none" width="100%" height="100">
+                        <path d="M0 100 C40 0 60 0 100 100 Z"></path>
+                    </svg>
+                    <div className="container space-top-2 space-bottom-1">
+                        <div className="row justify-content-lg-start mb-5">
+                            <div className="col-lg-4 col-sm-6 mb-5 mb-lg-0">
+                                <a className="d-inline-block mb-3 footer-logo" href="/">
+                                    <img src={venancioLogo} style={{ width: '125px' }} alt="" />
+                                </a>
+                                <p className="font-size-14 ">© 2021 Venancio. Todos direitos <br /> reservados.</p>
+                                <div>
+                                    <ul className="list-inline mb-0">
+                                        <li className="list-inline-item mb-2 mb-lg-0 mr-1"><a className="social-icon" href="https://www.facebook.com/venanciorestaurantebar/" target='_blank'><span
+                                            className="fab fa-facebook-f"></span></a></li>
+                                        {/* <li className="list-inline-item mr-1"><a className="social-icon " href="#"><span
                                             className="fab fa-twitter"></span></a></li> */}
-                              <li className="list-inline-item"><a className="social-icon " href="https://www.instagram.com/venanciorestaurantebar/" target='_blank'><span
-                                 className="fab fa-instagram"></span></a></li>
-                           </ul>
+                                        <li className="list-inline-item"><a className="social-icon " href="https://www.instagram.com/venanciorestaurantebar/" target='_blank'><span
+                                            className="fab fa-instagram"></span></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-sm-6 mb-4">
+                                <h3 className="h6 text-white mb-3  font-size-15">Endereço</h3>
+                                <address>
+                                    <ul className="list-group list-group-flush list-group-borderless mb-0">
+                                        <li className="list-group-item"><a className='normal-link' href='tel:+551122251844'>+55 (11) 2225-1844</a></li>
+                                        <li className="list-group-item">
+                                            <a className='normal-link' href="mailto:restaurantevencioebar@gmail.com">restaurantevencioebar@gmail.com</a>
+                                        </li>
+                                        <li className="list-group-item"><a className='normal-link' href='https://goo.gl/maps/RYkPvyvUnSmJxdfi9' target='_blank'>Rua Serra De Japi, 789 <br /> Vila Gomes Cardim - 03.309-000</a></li>
+                                    </ul>
+                                </address>
+                            </div>
+                            <div className=" col-lg-4 col-sm-6 mb-4">
+                                <h3 className="h6 text-white font-size-15 mb-0">Horário de atendimento</h3>
+                                <span className="mb-3" style={{ fontSize: '10px' }}>horário em periodo de restrição*</span>
+                                <div className="opening-hours-container font-size-14 ">
+                                    <span className="opening-hours-holder-inner">
+                                        <span className="opening-hours-day-holder">
+                                            <span className="opening-hours-day">Segunda</span>
+                                        </span>
+                                        <span className="opening-hours-line"></span>
+                                        <span className="opening-hours-time">Fechado</span>
+                                    </span>
+                                </div>
+                                <div className="opening-hours-container font-size-14 ">
+                                    <span className="opening-hours-holder-inner">
+                                        <span className="opening-hours-day-holder">
+                                            <span className="opening-hours-day">Terça</span>
+                                        </span>
+                                        <span className="opening-hours-line"></span>
+                                        <span className="opening-hours-time">09:00 - 21:00</span>
+                                    </span>
+                                </div>
+                                <div className="opening-hours-container font-size-14 ">
+                                    <span className="opening-hours-holder-inner">
+                                        <span className="opening-hours-day-holder">
+                                            <span className="opening-hours-day">Quarta</span>
+                                        </span>
+                                        <span className="opening-hours-line"></span>
+                                        <span className="opening-hours-time">09:00 - 21:00</span>
+                                    </span>
+                                </div>
+                                <div className="opening-hours-container font-size-14 ">
+                                    <span className="opening-hours-holder-inner">
+                                        <span className="opening-hours-day-holder">
+                                            <span className="opening-hours-day">Quinta</span>
+                                        </span>
+                                        <span className="opening-hours-line"></span>
+                                        <span className="opening-hours-time">09:00 - 21:00</span>
+                                    </span>
+                                </div>
+                                <div className="opening-hours-container font-size-14 ">
+                                    <span className="opening-hours-holder-inner">
+                                        <span className="opening-hours-day-holder">
+                                            <span className="opening-hours-day">Sexta</span>
+                                        </span>
+                                        <span className="opening-hours-line"></span>
+                                        <span className="opening-hours-time">09:00 - 21:00</span>
+                                    </span>
+                                </div>
+                                <div className="opening-hours-container font-size-14 ">
+                                    <span className="opening-hours-holder-inner">
+                                        <span className="opening-hours-day-holder">
+                                            <span className="opening-hours-day">Sábado</span>
+                                        </span>
+                                        <span className="opening-hours-line"></span>
+                                        <span className="opening-hours-time">09:00 - 21:00</span>
+                                    </span>
+                                </div>
+                                <div className="opening-hours-container font-size-14 ">
+                                    <span className="opening-hours-holder-inner">
+                                        <span className="opening-hours-day-holder">
+                                            <span className="opening-hours-day">Domingo</span>
+                                        </span>
+                                        <span className="opening-hours-line"></span>
+                                        <span className="opening-hours-time">09:00 - 21:00</span>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
-                     </div>
-                     <div className="col-lg-4 col-sm-6 mb-4">
-                        <h3 className="h6 text-white mb-3  font-size-15">Endereço</h3>
-                        <address>
-                           <ul className="list-group list-group-flush list-group-borderless mb-0">
-                              <li className="list-group-item"><a className='normal-link' href='tel:+551137470096'>+55 (11) 3747-0096</a></li>
-                              <li className="list-group-item">
-                                 <a className='normal-link' href="mailto:contato@venancio.com.br">contato@venancio.com.br</a>
-                              </li>
-                              <li className="list-group-item"><a className='normal-link' href='https://goo.gl/maps/RYkPvyvUnSmJxdfi9' target='_blank'>Rua Serra De Japi, 789 <br /> Vila Gomes Cardim - 03.309-000</a></li>
-                           </ul>
-                        </address>
-                     </div>
-                     <div className=" col-lg-4 col-sm-6 mb-4">
-                        <h3 className="h6 text-white mb-3  font-size-15">Horário de atendimento</h3>
-                        <div className="opening-hours-container font-size-14 ">
-                           <span className="opening-hours-holder-inner">
-                              <span className="opening-hours-day-holder">
-                                 <span className="opening-hours-day">Segunda</span>
-                              </span>
-                              <span className="opening-hours-line"></span>
-                              <span className="opening-hours-time">09:00 - 21:00</span>
-                           </span>
+                        <div class="row align-items-center">
+                            <div class="col-sm-12 text-center">
+                            <div class="hexagon"></div>
+                                <p class="small  text-secondary mb-3">Desenvolvido por  <a href='www.hokup.com.br' target='_blank' style={{textDecoration:'none'}}><img style={{maxWidth:'10px'}} src={hex} />   hokup</a></p>
+                            </div>
                         </div>
-                        <div className="opening-hours-container font-size-14 ">
-                           <span className="opening-hours-holder-inner">
-                              <span className="opening-hours-day-holder">
-                                 <span className="opening-hours-day">Terça</span>
-                              </span>
-                              <span className="opening-hours-line"></span>
-                              <span className="opening-hours-time">09:00 - 21:00</span>
-                           </span>
-                        </div>
-                        <div className="opening-hours-container font-size-14 ">
-                           <span className="opening-hours-holder-inner">
-                              <span className="opening-hours-day-holder">
-                                 <span className="opening-hours-day">Quarta</span>
-                              </span>
-                              <span className="opening-hours-line"></span>
-                              <span className="opening-hours-time">09:00 - 21:00</span>
-                           </span>
-                        </div>
-                        <div className="opening-hours-container font-size-14 ">
-                           <span className="opening-hours-holder-inner">
-                              <span className="opening-hours-day-holder">
-                                 <span className="opening-hours-day">Quinta</span>
-                              </span>
-                              <span className="opening-hours-line"></span>
-                              <span className="opening-hours-time">09:00 - 21:00</span>
-                           </span>
-                        </div>
-                        <div className="opening-hours-container font-size-14 ">
-                           <span className="opening-hours-holder-inner">
-                              <span className="opening-hours-day-holder">
-                                 <span className="opening-hours-day">Sexta</span>
-                              </span>
-                              <span className="opening-hours-line"></span>
-                              <span className="opening-hours-time">09:00 - 21:00</span>
-                           </span>
-                        </div>
-                        <div className="opening-hours-container font-size-14 ">
-                           <span className="opening-hours-holder-inner">
-                              <span className="opening-hours-day-holder">
-                                 <span className="opening-hours-day">Sábado</span>
-                              </span>
-                              <span className="opening-hours-line"></span>
-                              <span className="opening-hours-time">09:00 - 21:00</span>
-                           </span>
-                        </div>
-                        <div className="opening-hours-container font-size-14 ">
-                           <span className="opening-hours-holder-inner">
-                              <span className="opening-hours-day-holder">
-                                 <span className="opening-hours-day">Domingo</span>
-                              </span>
-                              <span className="opening-hours-line"></span>
-                              <span className="opening-hours-time">09:00 - 21:00</span>
-                           </span>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-               <div className="container-fluid d-flex align-items-center justify-content-center" style={{ backgroundColor: '#131313', height: '82px' }}>
-                  <div className="col-12 text-sm-center flex-column justify-content-center align-items-center" >
-                     <img style={{ maxWidth: '15px' }} src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNTEyIDUxMiIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGc+PGc+PHBhdGggZD0ibTQ4NS4yOTEgMTI5LjQwOC0yMjQtMTI4Yy0zLjI4NS0xLjg3Ny03LjI5Ni0xLjg3Ny0xMC41ODEgMGwtMjI0IDEyOGMtMy4zMjggMS44OTktNS4zNzYgNS40NC01LjM3NiA5LjI1OXYyMzQuNjY3YzAgMy44MTkgMi4wNDggNy4zNiA1LjM3NiA5LjI1OWwyMjQgMTI4YzEuNjQzLjkzOSAzLjQ1NiAxLjQwOCA1LjI5MSAxLjQwOHMzLjY0OC0uNDY5IDUuMjkxLTEuNDA4bDIyNC0xMjhjMy4zMjgtMS44OTkgNS4zNzYtNS40NCA1LjM3Ni05LjI1OXYtMjM0LjY2N2MtLjAwMS0zLjgxOS0yLjA0OS03LjM2LTUuMzc3LTkuMjU5eiIvPjwvZz48L2c+PGcvPjxnLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48Zy8+PGcvPjxnLz48Zy8+PC9zdmc+" />
-                     <p className="small text-secondary  mb-0">Desenvolvido por <a href="https://www.hokup.com.br/" target="_blank">hokup</a></p>
-                  </div>
-               </div>
-            </footer>
+                    </div>
+                </footer>
             <a className="scroll-to-top scroll" href="#petiscos"><span className=" fas fa-arrow-up top-icon "></span></a>
          </div>
       </>

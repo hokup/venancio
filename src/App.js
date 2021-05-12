@@ -5,8 +5,8 @@ import {
   Route
 } from "react-router-dom";
 import Home from './pages/Home';
-import Cardapio from './pages/Cardapio';
-import CardapioQr from './pages/CardapioQr';
+import CardapioQr from './pages/Cardapio';
+import Cardapio from './pages/CardapioQr';
 import { ParallaxProvider } from 'react-scroll-parallax';
 
 
